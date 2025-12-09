@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artistes – Echos Sonores</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body class="page-artists">
+    <header class="header">
+        <a class="header__link" href="/">
+            <img class="header__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+        </a>
+    
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+        </button>
+    
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item"><a class="menu__link" href="/">Accueil</a></li>
+                <li class="menu__item"><a class="menu__link" href="/festival.html">Le festival</a></li>
+                <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
+                <li class="menu__item"><a class="menu__link" href="/infos.html">Infos pratiques</a></li>
+                <li class="menu__item"><a class="menu__link" href="/scenes.html">Scènes</a></li>
+                <li class="menu__item"><a class="menu__link" href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    </header>
+
+    <main>
+        <section class="section section--wrapper section--artists">
+            <header class="section__header">
+                <h1 class="section__title">Artistes</h1>
+
+                <ul class="artists-tabs u-list-unstyled">
+                    <li class="artists-tabs__item artists-tabs__item--active">
+                        <button class="artists-tabs__btn" type="button">28 oct.</button>
+                    </li>
+                    <li class="artists-tabs__item">
+                        <button class="artists-tabs__btn" type="button">29 oct.</button>
+                    </li>
+                    <li class="artists-tabs__item">
+                        <button class="artists-tabs__btn" type="button">30 oct.</button>
+                    </li>
+                    <li class="artists-tabs__item">
+                        <button class="artists-tabs__btn" type="button">31 oct.</button>
+                    </li>
+                </ul>
+
+                <p class="section__meta">28 octobre</p>
+            </header>
+
+            <ul class="artists-list u-list-unstyled">
+                <li class="card-artist">
+                    <img class="card-artist__img" src="/assets/img/broussai.avif" alt="Broussaï" loading="lazy" />
+                    <div class="card-artist__body">
+                        <p class="card-artist__name">Broussaï</p>
+                        <p class="card-artist__date">28 octobre 2026 – 16h</p>
+                    </div>
+                </li>
+
+                <li class="card-artist">
+                    <img class="card-artist__img" src="/assets/img/chronixx.avif" alt="Chronixx" loading="lazy" />
+                    <div class="card-artist__body">
+                        <p class="card-artist__name">Chronixx</p>
+                        <p class="card-artist__date">28 octobre 2026 – 17h30</p>
+                    </div>
+                </li>
+
+                <li class="card-artist">
+                    <img class="card-artist__img" src="/assets/img/ziggy-marley.avif" alt="Ziggy Marley"
+                        loading="lazy" />
+                    <div class="card-artist__body">
+                        <p class="card-artist__name">Ziggy Marley</p>
+                        <p class="card-artist__date">28 octobre 2026 – 20h</p>
+                    </div>
+                </li>
+
+                <li class="card-artist">
+                    <img class="card-artist__img" src="/assets/img/beenie-man.avif" alt="Beenie Man" loading="lazy" />
+                    <div class="card-artist__body">
+                        <p class="card-artist__name">Beenie Man</p>
+                        <p class="card-artist__date">28 octobre 2026 – 21h30</p>
+                    </div>
+                </li>
+
+                <li class="card-artist">
+                    <img class="card-artist__img" src="/assets/img/alborosie.avif" alt="Alborosie" loading="lazy" />
+                    <div class="card-artist__body">
+                        <p class="card-artist__name">Alborosie</p>
+                        <p class="card-artist__date">28 octobre 2026 – 23h</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <img class="footer__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+
+            <div class="footer__newsletter">
+                <p class="footer__title">Inscrivez-vous à notre newsletter !</p>
+                <!-- formulaire plus tard -->
+            </div>
+        </div>
+
+        <nav class="footer__nav">
+            <ul class="footer__list u-list-unstyled">
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/festival.html">Le festival</a></li>
+                <li><a href="/programme.html">Programme</a></li>
+                <li><a href="/artistes.html">Artistes</a></li>
+                <li><a href="/infos.html">Infos pratiques</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer__bottom">
+            <p>Rue de Dalse, Audincourt</p>
+            <p>Festival écoresponsable – Echos Sonores</p>
+            <p>Copyright © 2026 Echos Sonores</p>
+        </div>
+    </footer>
+</body>
+
+</html>
