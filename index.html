@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="home">
+        <header class="header">
+            <a class="header__link" href="/">
+                <img class="header__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+            </a>
+    
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+                <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+            </button>
+    
+            <nav class="header__menu menu" id="mainNav" hidden>
+                <ul class="menu__list u-list-unstyled">
+                    <li class="menu__item"><a class="menu__link" href="/">Accueil</a></li>
+                    <li class="menu__item"><a class="menu__link" href="/festival.html">Le festival</a></li>
+                    <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
+                    <li class="menu__item"><a class="menu__link" href="/infos.html">Infos pratiques</a></li>
+                    <li class="menu__item"><a class="menu__link" href="/scenes.html">Scènes</a></li>
+                    <li class="menu__item"><a class="menu__link" href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <!-- HERO -->
+            <section class="hero hero--home">
+                <img class="hero__img" src="/assets/img/hero-concert.avif" alt="" />
+                <div class="hero__content">
+                    <p class="hero__kicker">Rendez-vous les 28–29–30 octobre 2026</p>
+                    <p class="hero__place">À Audincourt</p>
+                </div>
+            </section>
+    
+            <!-- PROGRAMMATION -->
+            <section class="section section--wrapper">
+                <header class="section__header">
+                    <h2 class="section__title">Programmation</h2>
+                </header>
+    
+                <ul class="cards-programme u-list-unstyled">
+                    <li class="card-artist">
+                        <img class="card-artist__img" src="/assets/img/ziggy-marley.avif" alt="Ziggy Marley" />
+                        <div class="card-artist__body">
+                            <p class="card-artist__name">Ziggy Marley</p>
+                            <p class="card-artist__date">28 octobre 2026</p>
+                        </div>
+                    </li>
+    
+                    <li class="card-artist">
+                        <img class="card-artist__img" src="/assets/img/shaggy.avif" alt="Shaggy" />
+                        <div class="card-artist__body">
+                            <p class="card-artist__name">Shaggy</p>
+                            <p class="card-artist__date">29 octobre 2026</p>
+                        </div>
+                    </li>
+    
+                    <li class="card-artist">
+                        <img class="card-artist__img" src="/assets/img/koffee.avif" alt="Koffee" />
+                        <div class="card-artist__body">
+                            <p class="card-artist__name">Koffee</p>
+                            <p class="card-artist__date">29 octobre 2026</p>
+                        </div>
+                    </li>
+                </ul>
+    
+                <a class="btn btn--primary section__cta" href="/billetterie.html">Billetterie</a>
+            </section>
+    
+            <!-- INFOS PRATIQUES -->
+            <section class="section section--wrapper section--infos">
+                <header class="section__header">
+                    <h2 class="section__title">Infos pratiques</h2>
+                    <p class="section__meta">Du 28 au 31 octobre 2026 – Audincourt, Rue de Dalse</p>
+                </header>
+    
+                <div class="infos">
+                    <figure class="infos__map">
+                        <img src="/assets/img/carte-site.avif" alt="Plan du site du festival Echos Sonores" />
+                    </figure>
+    
+                    <div class="infos__content">
+                        <p class="infos__item"><span class="infos__label">Ouverture :</span> 15h</p>
+                        <p class="infos__item"><span class="infos__label">Fermeture :</span> 2h du matin</p>
+                        <p class="infos__item">
+                            <span class="infos__label">Concerts principaux :</span> en soirée à partir de 20h
+                        </p>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- TARIFS -->
+            <section class="section section--wrapper section--tarifs">
+                <header class="section__header">
+                    <h2 class="section__title">Tarifs</h2>
+                </header>
+    
+                <div class="tarifs">
+                    <div class="tarifs__block">
+                        <h3 class="tarifs__subtitle">Pass multi-jours</h3>
+                        <p>Pass 4 jours (28–31 octobre) : 95€</p>
+                        <p>Pass 3 jours au choix : 70€</p>
+                        <p>Billets à l’unité : 35€</p>
+                    </div>
+    
+                    <div class="tarifs__block">
+                        <h3 class="tarifs__subtitle">Tarifs réduits</h3>
+                        <p>Tarif étudiant (18–28 ans)</p>
+                        <p>Tarif jeune (18–25 ans)</p>
+                        <p>Gratuit pour les moins de 12 ans</p>
+                    </div>
+                </div>
+    
+                <a class="btn btn--primary section__cta" href="/billetterie.html">Billetterie</a>
+            </section>
+    
+            <!-- PARTENAIRES -->
+            <section class="section section--wrapper section--partners">
+                <header class="section__header">
+                    <h2 class="section__title">Nos partenaires</h2>
+                </header>
+    
+                <ul class="partners u-list-unstyled">
+                    <li class="partners__item">
+                        <img src="/assets/img/logo-est-republicain.svg" alt="L'Est Républicain" />
+                    </li>
+                    <li class="partners__item">
+                        <img src="/assets/img/logo-ici.svg" alt="France Bleu Ici" />
+                    </li>
+                </ul>
+            </section>
+        </main>
+    
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer__top">
+                <img class="footer__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+    
+                <div class="footer__newsletter">
+                    <p class="footer__title">Inscrivez-vous à notre newsletter !</p>
+                    <!-- formulaire plus tard -->
+                </div>
+            </div>
+    
+            <nav class="footer__nav">
+                <ul class="footer__list u-list-unstyled">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/festival.html">Le festival</a></li>
+                    <li><a href="/programme.html">Programme</a></li>
+                    <li><a href="/artistes.html">Artistes</a></li>
+                    <li><a href="/infos.html">Infos pratiques</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <div class="footer__bottom">
+                <p>Rue de Dalse, Audincourt</p>
+                <p>Festival écoresponsable – Echos Sonores</p>
+                <p>Copyright © 2026 Echos Sonores</p>
+            </div>
+        </footer>
+    </body>
+
+</body>
+</html>
