@@ -193,3 +193,25 @@ body {
     line-height: 1;
     color: #ffffff;
 }
+
+.contact-page {
+    padding: 1.5rem 1.5rem 3rem;
+    color: #ffffff;
+    font-family: "Montserrat", system-ui, sans-serif;
+}
+
+.contact-page__title {
+    text-align: center;
+    font-family: "Fredoka", system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem;
+}
+
+.contact-page h2 {
+    font-family: "Fredoka", system-ui, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 2rem 0 1rem;
+}
+
