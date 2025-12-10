@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Echos Sonores</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <!-- CSS global -->
+    <link rel="stylesheet" href="/src/css/style.css" />
+
+    <!-- JS global -->
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body class="page-contact">
+    <header class="header">
+        <a class="header__link" href="/">
+            <img class="header__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+        </a>
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item"><a class="menu__link" href="/">Accueil</a></li>
+                <li class="menu__item"><a class="menu__link" href="/festival.html">Le festival</a></li>
+                <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
+                <li class="menu__item"><a class="menu__link" href="/artistes-28.html">Artistes</a></li>
+                <li class="menu__item"><a class="menu__link" href="/scenes.html">Scènes</a></li>
+                <li class="menu__item"><a class="menu__link" href="/infos.html">Infos pratiques</a></li>
+                <li class="menu__item"><a class="menu__link" href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section section--wrapper section--contact">
+            <header class="section__header">
+                <h1 class="section__title">Contact</h1>
+            </header>
+
+            <!-- FORMULAIRE -->
+            <article class="contact-block contact-block--form">
+                <h2 class="contact-block__title">Contactez-nous&nbsp;!</h2>
+
+                <form class="contact-form" action="#" method="post">
+                    <div class="contact-form__field">
+                        <label class="u-sr-only" for="contact-lastname">Nom</label>
+                        <input class="contact-form__input" type="text" id="contact-lastname" name="lastname"
+                            placeholder="Nom..." required />
+                    </div>
+
+                    <div class="contact-form__field">
+                        <label class="u-sr-only" for="contact-firstname">Prénom</label>
+                        <input class="contact-form__input" type="text" id="contact-firstname" name="firstname"
+                            placeholder="Prénom..." required />
+                    </div>
+
+                    <div class="contact-form__field">
+                        <label class="u-sr-only" for="contact-email">Email</label>
+                        <input class="contact-form__input" type="email" id="contact-email" name="email"
+                            placeholder="Email..." required />
+                    </div>
+
+                    <div class="contact-form__field">
+                        <label class="contact-form__label" for="contact-message">Sujet</label>
+                        <textarea class="contact-form__textarea" id="contact-message" name="message" rows="5"
+                            placeholder="Écrivez votre demande ici..." required></textarea>
+                    </div>
+
+                    <button class="btn btn--primary contact-form__submit" type="submit">
+                        Envoyer
+                    </button>
+                </form>
+            </article>
+
+            <!-- COORDONNÉES -->
+            <article class="contact-block contact-block--coords">
+                <h2 class="contact-block__title">Nos coordonnées</h2>
+
+                <ul class="contact-list u-list-unstyled">
+                    <li class="contact-list__item">
+                        <span class="contact-list__icon" aria-hidden="true">📍</span>
+                        <span class="contact-list__text">Rue de Dalse, Audincourt</span>
+                    </li>
+                    <li class="contact-list__item">
+                        <span class="contact-list__icon" aria-hidden="true">✉️</span>
+                        <a class="contact-list__text" href="mailto:info@echossonores.fr">
+                            info@echossonores.fr
+                        </a>
+                    </li>
+                    <li class="contact-list__item">
+                        <span class="contact-list__icon" aria-hidden="true">📞</span>
+                        <a class="contact-list__text" href="tel:+33365885698">03 65 88 56 98</a>
+                    </li>
+                </ul>
+            </article>
+
+            <!-- RÉSEAUX SOCIAUX -->
+            <article class="contact-block contact-block--social">
+                <h2 class="contact-block__title">Nos réseaux</h2>
+
+                <ul class="social-list u-list-unstyled">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="#" aria-label="Instagram">
+                            <!-- Remplace par ton icône -->
+                            <span aria-hidden="true">📷</span>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="#" aria-label="X (Twitter)">
+                            <span aria-hidden="true">✕</span>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="#" aria-label="YouTube">
+                            <span aria-hidden="true">▶</span>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <img class="footer__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+        
+            <div class="footer__newsletter">
+                <p class="footer__title">Inscrivez-vous à notre newsletter !</p>
+                <!-- formulaire plus tard -->
+            </div>
+        </div>
+        
+        <nav class="footer__nav">
+            <ul class="footer__list u-list-unstyled">
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/festival.html">Le festival</a></li>
+                <li><a href="/programme.html">Programme</a></li>
+                <li><a href="/artistes.html">Artistes</a></li>
+                <li><a href="/infos.html">Infos pratiques</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="footer__bottom">
+            <p>Rue de Dalse, Audincourt</p>
+            <p>Festival écoresponsable – Echos Sonores</p>
+            <p>Copyright © 2026 Echos Sonores</p>
+        </div>
+    </footer>
+</body>
+
+</html>
