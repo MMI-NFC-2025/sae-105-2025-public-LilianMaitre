@@ -2,13 +2,16 @@
 :root {
     /* couleurs */
     --fond: #00a02d;
-    --rouge: #cc0a0a;
+    --rouge: #e30000;;
     --vert-foncé: #006711;
+    --blanc: #ffffff;
     
     /* polices */
     --police-principale: 'Arial', sans-serif;
 
     /* tailles */
+    --text-xs: 0.63rem;
+    /* 10px */
     --text-sm: 0.75rem;
     /* 12px */
     --text-base: 1rem;

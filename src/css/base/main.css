@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #009933;
+    /* mets ici la couleur que tu veux */
+}
+
+.geomanist-regular {
+    font-family: "Metropolis", system-ui, -apple-system, sans-serif;
+}
+
+.reggae-title {
+    font-family: "Reggae One", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color : var(--blanc);
+}
+
+
+.geologica-bold {
+    font-family: "Geologica", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 700;
+}
+
+.section__meta {
+    font-family: "Metropolis", system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    /* blanc visible */
+    font-size: var(--text-lg);
+    opacity: 1 !important;
+    /* force la visibilité */
+    margin: 0;
+}
+
+.tarifs__subtitle{
+    font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #ffffff;
+    margin: 0;
+    font-size : var(--text-xl);
+}
+
+.tarifs__price {
+    font-family: "Metropolis", system-ui, -apple-system, sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        /* blanc visible */
+        font-size: var(--text-lg);
+        opacity: 1 !important;
+        /* force la visibilité */
+        margin: 0.25rem;
+}
+
+.section__meta 
+.date-rouge{
+    color: var(--rouge);
+}
+
+.footer__logo{
+    width : auto;
+    height : 70px;
+}
+.footer__newsletter-text{
+    font-family : "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size : var(--text-lg);
+
+}
+
+.footer__btn{
+    font-family : "Metropolis", system-ui, -apple-system, sans-serif;
+    font-size : var(--text-sm);
+    font-weight : 400;
+}
+
+.footer__list{
+    font-family : "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight : 700;
+}
+
+.footer__title{
+    font-family : "Metropolis", system-ui, -apple-system, sans-serif;
+    font-size : var(--text-lg);
+}
+
+.footer__legal{
+    font-family : "Metropolis", system-ui, -apple-system, sans-serif;
+    font-size : var(--text-xs);
+}
+
+.infos__coordonees{
+    font-family : "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size : var(--text-base);
+}
+
+.footer__copyright{
+    font-family: "Metropolis", system-ui, -apple-system, sans-serif;
+    font-size: var(--text-xs);
+}
+

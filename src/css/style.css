@@ -3,6 +3,8 @@
 @import "../components/hero.css";
 @import "base/main.css";
 @import "base/media.css";
+@import "../components/bouton.css";
+@import "../css/utils/variables.css";
 
 html,
 body {

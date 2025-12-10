@@ -10,18 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@400&display=swap" rel="stylesheet">
     <style>
-        .reggae-title {
-            font-family: "Reggae One", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        }
 
-        .geologica-bold {
-  font-family: "Geologica", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-weight: 700;
-}
 
-.geomanist-regular {
-  font-family: "Metropolis", system-ui, -apple-system, sans-serif;
-}
     </style>
     <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js">
@@ -95,25 +85,26 @@
                     </li>
                 </ul>
     
-                <a class="btn btn--primary section__cta" href="/billetterie.html">Billetterie</a>
+                <a href="#billetterie" class="btn-ticket">Billetterie</a>
             </section>
     
             <!-- INFOS PRATIQUES -->
             <section class="section section--wrapper section--infos">
                 <header class="section__header">
                     <h2 class="reggae-title">Infos pratiques</h2>
-                    <p class="section__meta">Du 28 au 31 octobre 2026 – Audincourt, Rue de Dasle</p>
+                    <p class="section__meta">Dates : Du <span class="date-rouge">28</span> au <span class="date-rouge">31</span> octobre 2026 <br> Lieu : Rue de Dasle, Audincourt</p>
                 </header>
     
                 <div class="infos">
                     <figure class="infos__map">
-                        <img src="/assets/img/map.webp" alt="Plan du site du festival Echos Sonores" />
+                        <img src="/assets/img/map.webp" alt="Plan du site du festival Echos Sonores"
+                            style="width: 100%; height: auto; border-radius: 10px;" />
                     </figure>
     
                     <div class="infos__content">
-                        <p class="infos__item"><span class="infos__label">Ouverture :</span> 15h</p>
-                        <p class="infos__item"><span class="infos__label">Fermeture :</span> 2h du matin</p>
-                        <p class="infos__item">
+                        <p class="section__meta"><span class="infos__label">Ouverture :</span> 15h</p>
+                        <p class="section__meta"><span class="infos__label">Fermeture :</span> 2h du matin</p>
+                        <p class="section__meta">
                             <span class="infos__label">Concerts principaux :</span> en soirée à partir de 20h
                         </p>
                     </div>
@@ -129,20 +120,20 @@
                 <div class="tarifs">
                     <div class="tarifs__block">
                         <h3 class="tarifs__subtitle">Pass multi-jours</h3>
-                        <p>Pass 4 jours (28–31 octobre) : 95€</p>
+                        <h4 class="tarifs__price"> Pass 4 jours (28–31 octobre) : 95€
                         <p>Pass 3 jours au choix : 70€</p>
-                        <p>Billets à l’unité : 35€</p>
+                        <p>Billets à l’unité : 35€</p> </h4>
                     </div>
     
                     <div class="tarifs__block">
                         <h3 class="tarifs__subtitle">Tarifs réduits</h3>
-                        <p>Tarif étudiant (18–28 ans)</p>
+                        <h4 class="tarifs__price"><p>Tarif étudiant (18–28 ans)</p>
                         <p>Tarif jeune (18–25 ans)</p>
-                        <p>Gratuit pour les moins de 12 ans</p>
+                        <p>Gratuit pour les moins de 12 ans</p></h4>
                     </div>
                 </div>
     
-                <a class="btn btn--primary section__cta" href="/billetterie.html">Billetterie</a>
+                <a href="#billetterie" class="btn-ticket">Billetterie</a>
             </section>
     
             <!-- PARTENAIRES -->
@@ -165,29 +156,48 @@
         <!-- FOOTER -->
         <footer class="footer">
             <div class="footer__top">
-                <img class="footer__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
-    
+                <img class="footer__logo" src="assets/icons/logo-echos-sonores.svg" alt="Echos Sonores">
+        
                 <div class="footer__newsletter">
-                    <p class="footer__title">Inscrivez-vous à notre newsletter !</p>
-                    <!-- formulaire plus tard -->
+                    <p class="footer__newsletter-text">Inscrivez-vous à <br>notre newsletter&nbsp;!</p>
+                    <a href="#newsletter" class="footer__btn">Je m’inscris !</a>
                 </div>
             </div>
-    
-            <nav class="footer__nav">
-                <ul class="footer__list u-list-unstyled">
-                    <li><a href="/">Accueil</a></li>
-                    <li><a href="/festival.html">Le festival</a></li>
-                    <li><a href="/programme.html">Programme</a></li>
-                    <li><a href="/artistes.html">Artistes</a></li>
-                    <li><a href="/infos.html">Infos pratiques</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-    
-            <div class="footer__bottom">
-                <p>Rue de Dalse, Audincourt</p>
-                <p>Festival écoresponsable – Echos Sonores</p>
-                <p>Copyright © 2026 Echos Sonores</p>
+        
+            <div class="footer__middle">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li><a href="/">Accueil</a></li>
+                        <li><a href="/festival.html">Le festival</a></li>
+                        <li><a href="/programme.html">Programme</a></li>
+                        <li><a href="/artistes.html">Artistes</a></li>
+                        <li><a href="/infos.html">Infos pratiques</a></li>
+                        <li><a href="/scenes.html">Scènes</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+        
+                <div class="footer__partners">
+                    <img src="assets/img/l'est republicain.avif" alt="L'Est Républicain" class="footer__partner-logo">
+                    <img src="assets/img/logo-ici.svg" alt="Ici" class="footer__partner-logo">
+                </div>
+        
+                <div class="footer__contact">
+                    <p class="footer__title">COORDONÉES</p>
+                    <span class="infos__coordonees"><p>Rue de Dasle, Audincourt</p>
+                    <p><a href="mailto:info@echossonores.fr">info@echossonores.fr</a></p>
+                    <p><a href="/contact.html">Page contact</a></p></span>
+                </div>
+            </div>
+        
+            <div class="footer__legal">
+                <p>
+                    <a href="#">Mentions légales</a> ·
+                    <a href="#">Politique de confidentialité (RGPD)</a> ·
+                    <a href="#">Conditions générales de vente (CGV)</a> ·
+                    <a href="#">Gestion des cookies</a>
+                </p>
+                <p class="footer__copyright">Copyright © 2026 Echos Sonores</p>
             </div>
         </footer>
     </body>

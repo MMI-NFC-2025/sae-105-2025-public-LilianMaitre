@@ -1,0 +1,26 @@
+.btn-ticket {
+    display: block;
+    padding: 1rem 2.5rem;
+    background-color: #e30000;
+    /* rouge vif */
+    color: #ffffff;
+    font-family: "Geologica", system-ui, sans-serif;
+    /* ou ta font */
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-radius: 10px;
+    /* coins bien arrondis */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+    /* ombre sous le bouton */
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: fit-content;
+}
+
+/* hover */
+.btn-ticket:hover {
+    background-color: #ff1c1c;
+    transform: translateY(-1px);
+}
