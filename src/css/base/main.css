@@ -20,6 +20,12 @@ body {
     font-weight: 700;
 }
 
+  .roundy-like {
+      font-family: "Fredoka", system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+  }
+
 .section__meta {
     font-family: "Metropolis", system-ui, -apple-system, sans-serif;
     font-weight: 400;
@@ -95,3 +101,29 @@ body {
     font-size: var(--text-xs);
 }
 
+.section__title{
+    font-family: "fredoka", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--blanc);
+    text-align: center;
+}
+
+.about-block__title{
+    font-family: "reggae one", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--blanc);
+}
+
+.about-block__text{
+    font-family: "montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--blanc);
+}
+
+.about-value__title{
+    font-family: "metropolis", system-ui, -apple-system, sans-serif;
+    color: var(--rouge);
+}
+
+.about-value__text{
+    font-family: "montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--blanc);
+    font-size : var(--text-base)
+}
