@@ -24,3 +24,58 @@
     background-color: #ff1c1c;
     transform: translateY(-1px);
 }
+
+.btn--primary{
+    display: block;
+        padding: 1rem 2rem;
+        background-color: #e30000;
+        /* rouge vif */
+        color: #ffffff;
+        font-family: "Geologica", system-ui, sans-serif;
+        /* ou ta font */
+        font-weight: 700;
+        font-size: 1.25rem;
+        text-decoration: none;
+        border-radius: 10px;
+        /* coins bien arrondis */
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+        /* ombre sous le bouton */
+        margin: 1.5rem auto;
+        display: block;
+        text-align: center;
+        width: fit-content;
+}
+
+.btn--primary:hover {
+    background-color: #ff1c1c;
+        transform: translateY(-1px);
+}
+
+.artists-tabs {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 0.9rem;
+}
+
+.artists-tabs {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 0.9rem;
+}
+
+.artists-tabs__btn {
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.artists-tabs__btn--active {
+    background: #ffffff;
+    color: #00852a;
+}

@@ -127,3 +127,9 @@ body {
     color: var(--blanc);
     font-size : var(--text-base)
 }
+
+.program-table{
+    font-family: "metropolis", system-ui, -apple-system, sans-serif;
+    color: var(--blanc);
+}
+

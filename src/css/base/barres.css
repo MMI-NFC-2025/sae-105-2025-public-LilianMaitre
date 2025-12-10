@@ -1,0 +1,103 @@
+/* ligne de séparation entre les jours */
+.program-table tr.day-separator td {
+    padding: 0.5rem 0;
+    border: none;
+}
+
+/* barre plus courte, centrée */
+.program-table tr.day-separator td::before {
+    content: "";
+    display: block;
+    width: 85%;
+    /* longueur de la barre */
+    height: 2px;
+    /* plus fine */
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 999px;
+}
+
+.program-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+/* en-tête centré */
+.program-table th {
+    text-align: center;
+        font-weight: 700;
+}
+
+/* lignes du corps alignées à gauche comme sur ta maquette */
+.program-table td {
+    text-align: left;
+    padding: 0.25rem 0.6rem;
+}
+
+.program-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+/* en-têtes */
+.program-table th {
+    text-align: left;
+        padding: 0 0.75rem 0.2rem 0;
+    /* même espacement pour tous */
+}
+
+/* cellules */
+.program-table td {
+    padding: 0.1rem 1.2rem 0.1rem 0;
+    text-align: left;
+}
+
+/* espace à gauche de la première colonne uniquement */
+.program-table th:first-child,
+.program-table td:first-child {
+    padding-left: 0.75rem;
+}
+
+/* barre de séparation entre les jours */
+.program-table tr.day-separator td {
+    padding: 1rem 0;
+    border: none;
+}
+
+.program-table tr.day-separator td::before {
+    content: "";
+    display: block;
+    width: 92%;
+    /* barre quasi pleine largeur */
+    height: 2px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 999px;
+}
+.program-table-wrapper {
+    padding: 0 1.5rem;
+    /* espace à gauche/droite de tout le tableau */
+}
+
+.program-table th,
+.program-table td {
+    padding: 0.2rem 0.75rem;
+    text-align: left;
+}
+
+/* en-têtes un peu plus bas */
+.program-table th {
+    padding-bottom: 0.5rem;
+}
+
+.program-table {
+    width: 100%;
+    max-width: 520px;
+    /* ou 540px selon ton design */
+    margin: 0 auto;
+    /* centre le tableau dans la page */
+}

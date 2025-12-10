@@ -5,7 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Programme – Echos Sonores</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
 </head>
@@ -19,6 +24,7 @@
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
             <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+            <span class="menu-btn__bar"></span>
         </button>
         
         <nav class="header__menu menu" id="mainNav" hidden>
@@ -52,6 +58,9 @@
 
                     <tbody>
                         <!-- 28 octobre -->
+                        <tr class="day-separator">
+                            <td colspan="4"></td>
+                        </tr>
                         <tr>
                             <td>Broussaï</td>
                             <td>28/10</td>
@@ -82,7 +91,9 @@
                             <td>23h</td>
                             <td>Moonlight</td>
                         </tr>
-
+                        <!-- Séparateur entre 28 et 29 octobre -->
+                        <tr class="day-separator">
+                            <td colspan="4"></td>
                         <!-- 29 octobre -->
                         <tr>
                             <td>Jah9</td>
@@ -114,7 +125,8 @@
                             <td>23h</td>
                             <td>Echo Roots</td>
                         </tr>
-
+                        <tr class="day-separator">
+                            <td colspan="4"></td>
                         <!-- 30 octobre -->
                         <tr>
                             <td>Vanupié</td>
@@ -146,7 +158,8 @@
                             <td>23h</td>
                             <td>Echo Roots</td>
                         </tr>
-
+                        <tr class="day-separator">
+                            <td colspan="4"></td>
                         <!-- 31 octobre -->
                         <tr>
                             <td>Collie Buddz</td>
@@ -183,36 +196,57 @@
             </div>
 
             <a class="btn btn--primary program__cta" href="/assets/pdf/programme-echos-sonores.pdf">
-                Télécharger le programme
+                Télécharger <br> le programme
             </a>
         </section>
     </main>
 
     <footer class="footer">
         <div class="footer__top">
-            <img class="footer__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
-        
+            <img class="footer__logo" src="assets/icons/logo-echos-sonores.svg" alt="Echos Sonores">
+    
             <div class="footer__newsletter">
-                <p class="footer__title">Inscrivez-vous à notre newsletter !</p>
-                <!-- formulaire plus tard -->
+                <p class="footer__newsletter-text">Inscrivez-vous à <br>notre newsletter&nbsp;!</p>
+                <a href="#newsletter" class="footer__btn">Je m’inscris !</a>
             </div>
         </div>
-        
-        <nav class="footer__nav">
-            <ul class="footer__list u-list-unstyled">
-                <li><a href="/">Accueil</a></li>
-                <li><a href="/festival.html">Le festival</a></li>
-                <li><a href="/programme.html">Programme</a></li>
-                <li><a href="/artistes.html">Artistes</a></li>
-                <li><a href="/infos.html">Infos pratiques</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        
-        <div class="footer__bottom">
-            <p>Rue de Dalse, Audincourt</p>
-            <p>Festival écoresponsable – Echos Sonores</p>
-            <p>Copyright © 2026 Echos Sonores</p>
+    
+        <div class="footer__middle">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/festival.html">Le festival</a></li>
+                    <li><a href="/programme.html">Programme</a></li>
+                    <li><a href="/artistes28.html">Artistes</a></li>
+                    <li><a href="/infos.html">Infos pratiques</a></li>
+                    <li><a href="/scenes.html">Scènes</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <div class="footer__partners">
+                <img src="assets/img/l'est republicain.avif" alt="L'Est Républicain" class="footer__partner-logo">
+                <img src="assets/img/logo-ici.svg" alt="Ici" class="footer__partner-logo">
+            </div>
+    
+            <div class="footer__contact">
+                <p class="footer__title">COORDONÉES</p>
+                <span class="infos__coordonees">
+                    <p>Rue de Dasle, Audincourt</p>
+                    <p><a href="mailto:info@echossonores.fr">info@echossonores.fr</a></p>
+                    <p><a href="/contact.html">Page contact</a></p>
+                </span>
+            </div>
+        </div>
+    
+        <div class="footer__legal">
+            <p>
+                <a href="#">Mentions légales</a> ·
+                <a href="#">Politique de confidentialité (RGPD)</a> ·
+                <a href="#">Conditions générales de vente (CGV)</a> ·
+                <a href="#">Gestion des cookies</a>
+            </p>
+            <p class="footer__copyright">Copyright © 2026 Echos Sonores</p>
         </div>
     </footer>
 </body>

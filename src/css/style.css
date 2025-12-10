@@ -5,6 +5,7 @@
 @import "base/media.css";
 @import "../components/bouton.css";
 @import "../css/utils/variables.css";
+@import "../css/base/barres.css";
 
 html,
 body {
