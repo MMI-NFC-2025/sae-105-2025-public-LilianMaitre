@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chronixx – Artistes | Echos Sonores</title>
+
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+  </head>
+
+  <body class="page-artist">
+    <header class="header">
+    <a class="header__link" href="/">
+        <img class="header__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+    </a>
+    
+    <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+        <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+    </button>
+    
+    <nav class="header__menu menu" id="mainNav" hidden>
+        <ul class="menu__list u-list-unstyled">
+            <li class="menu__item"><a class="menu__link" href="/">Accueil</a></li>
+            <li class="menu__item"><a class="menu__link" href="/festival.html">Le festival</a></li>
+            <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
+            <li class="menu__item"><a class="menu__link" href="/artistes-31.html">Artistes</a></li>
+            <li class="menu__item"><a class="menu__link" href="/infos.html">Infos pratiques</a></li>
+            <li class="menu__item"><a class="menu__link" href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+      <section class="section section--wrapper section--artist">
+        <header class="section__header">
+          <h1 class="section__title">Artistes</h1>
+        </header>
+
+        <!-- Hero artiste -->
+        <article class="artist">
+          <figure class="artist__hero">
+            <img
+              class="artist__img"
+              src="/assets/img/chronixx-hero.avif"
+              alt="Chronixx en concert"
+            />
+            <figcaption class="artist__name">Chronixx</figcaption>
+          </figure>
+
+          <div class="artist__meta">
+            <p><strong>Passage :</strong> 28 octobre 2026 – 17h30</p>
+            <p><strong>Scène :</strong> Moonlight</p>
+          </div>
+
+          <section class="artist__bio">
+            <h2 class="artist__subtitle">Description</h2>
+            <p>
+              Chronixx (Jamar Rolando McNaughton) est un chanteur jamaïcain né en 1992, figure
+              majeure du mouvement reggae roots engagé.
+            </p>
+            <p>
+              Fils de l’artiste Chronicle, il se fait connaître au début des années 2010 avec des
+              mixtapes et l’EP « Dread &amp; Terrible », puis enchaîne tournées internationales et
+              grands festivals grâce à un son qui mêle spiritualité, conscience sociale et vibes
+              chaleureuses.
+            </p>
+          </section>
+
+          <!-- Autres visuels de l’artiste -->
+          <section class="artist-gallery">
+            <h2 class="artist__subtitle">Galerie</h2>
+            <div class="artist-gallery__grid">
+              <img
+                class="artist-gallery__img"
+                src="/assets/img/chronixx-02.avif"
+                alt="Chronixx sur scène"
+                loading="lazy"
+              />
+              <img
+                class="artist-gallery__img"
+                src="/assets/img/chronixx-03.avif"
+                alt="Chronixx en concert"
+                loading="lazy"
+              />
+              <img
+                class="artist-gallery__img"
+                src="/assets/img/chronixx-04.avif"
+                alt="Chronixx en extérieur"
+                loading="lazy"
+              />
+            </div>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+    <div class="footer__top">
+        <img class="footer__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+    
+        <div class="footer__newsletter">
+            <p class="footer__title">Inscrivez-vous à notre newsletter !</p>
+            <!-- formulaire plus tard -->
+        </div>
+    </div>
+    
+    <nav class="footer__nav">
+        <ul class="footer__list u-list-unstyled">
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/festival.html">Le festival</a></li>
+            <li><a href="/programme.html">Programme</a></li>
+            <li><a href="/artistes.html">Artistes</a></li>
+            <li><a href="/infos.html">Infos pratiques</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="footer__bottom">
+        <p>Rue de Dalse, Audincourt</p>
+        <p>Festival écoresponsable – Echos Sonores</p>
+        <p>Copyright © 2026 Echos Sonores</p>
+    </div>
+    </footer>
+  </body>
+</html>
