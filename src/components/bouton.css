@@ -28,18 +28,14 @@
 .btn--primary{
     display: block;
         padding: 1rem 2rem;
-        background-color: #e30000;
-        /* rouge vif */
-        color: #ffffff;
+        background-color: var(--rouge);
+        color: var(--blanc);
         font-family: "Geologica", system-ui, sans-serif;
-        /* ou ta font */
         font-weight: 700;
         font-size: 1.25rem;
         text-decoration: none;
         border-radius: 10px;
-        /* coins bien arrondis */
         box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
-        /* ombre sous le bouton */
         margin: 1.5rem auto;
         display: block;
         text-align: center;
@@ -76,6 +72,62 @@
 }
 
 .artists-tabs__btn--active {
-    background: #ffffff;
-    color: #00852a;
+    background: var(--blanc);
+    color: var(--vert);
+}
+
+.btn--secondary{
+    display: block;
+        padding: 1rem 2rem;
+        background-color: var(--rouge);
+        color: var(--blanc);
+        font-family: "Geologica", system-ui, sans-serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+        text-decoration: none;
+        border-radius: 10px;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+        margin: 1.5rem auto;
+        display: block;
+        text-align: center;
+        width: fit-content;
+}
+
+
+
+.transport-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.transport-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0rem;
+
+    padding: 1rem 1.5rem;
+    background-color: var(--rouge);
+    border-radius: 24px;
+    text-decoration: none;
+    color: var(--blanc);
+    font-size: 1.1rem;
+    font-family: "Geologica",system-ui,sans-serif;
+    font-weight: 700;
+}
+
+.transport-card img {
+    width: 30px;
+    height: auto;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+}
+
+.transport-card__label {
+    display: block;
 }

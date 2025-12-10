@@ -153,3 +153,43 @@ body {
     color: #ffffff;
     margin: 0.2rem 0 0;
 }
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /* espace vertical entre les questions */
+}
+
+/* chaque ligne de question */
+.faq__item {
+    width: 100%;
+    padding: 0;
+    margin: 0.25rem 0;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* texte de la question */
+.faq__question {
+    flex: 1;
+    text-align: left;
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+.faq__icon {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #ffffff;
+}
