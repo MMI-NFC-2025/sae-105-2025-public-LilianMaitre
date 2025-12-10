@@ -1,0 +1,38 @@
+.hero {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.hero__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero__content {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 2.5rem;
+    text-align: left;
+}
+
+/* style du texte */
+.hero__kicker,
+.hero__place {
+    font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+.hero__kicker {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hero__place {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+}
