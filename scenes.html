@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scènes – Echos Sonores</title>
+
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body class="page-scenes">
+    <header class="header">
+        <a class="header__link" href="/">
+            <img class="header__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+        </a>
+        
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+        </button>
+        
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item"><a class="menu__link" href="/">Accueil</a></li>
+                <li class="menu__item"><a class="menu__link" href="/festival.html">Le festival</a></li>
+                <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
+                <li class="menu__item"><a class="menu__link" href="/artistes-31.html">Artistes</a></li>
+                <li class="menu__item"><a class="menu__link" href="/infos.html">Infos pratiques</a></li>
+                <li class="menu__item"><a class="menu__link" href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section section--wrapper section--scenes">
+            <header class="section__header">
+                <h1 class="section__title">Scènes</h1>
+            </header>
+
+            <ul class="scenes-list u-list-unstyled">
+                <li class="card-scene">
+                    <figure class="card-scene__media">
+                        <img class="card-scene__img" src="/assets/img/scene-grande.avif" alt="Grande scène Echo Roots"
+                            loading="lazy" />
+                        <figcaption class="card-scene__overlay">
+                            <span class="card-scene__cta">En savoir plus</span>
+                        </figcaption>
+                    </figure>
+                    <div class="card-scene__body">
+                        <p class="card-scene__name">Grande scène</p>
+                        <p class="card-scene__subtitle">Echo Roots</p>
+                    </div>
+                </li>
+
+                <li class="card-scene">
+                    <figure class="card-scene__media">
+                        <img class="card-scene__img" src="/assets/img/scene-chill.avif" alt="Scène chill Moonlight"
+                            loading="lazy" />
+                        <figcaption class="card-scene__overlay">
+                            <span class="card-scene__cta">En savoir plus</span>
+                        </figcaption>
+                    </figure>
+                    <div class="card-scene__body">
+                        <p class="card-scene__name">Scène chill</p>
+                        <p class="card-scene__subtitle">Moonlight</p>
+                    </div>
+                </li>
+
+                <li class="card-scene">
+                    <figure class="card-scene__media">
+                        <img class="card-scene__img" src="/assets/img/scene-after.avif" alt="After scène Sound System"
+                            loading="lazy" />
+                        <figcaption class="card-scene__overlay">
+                            <span class="card-scene__cta">En savoir plus</span>
+                        </figcaption>
+                    </figure>
+                    <div class="card-scene__body">
+                        <p class="card-scene__name">After scène</p>
+                        <p class="card-scene__subtitle">Sound System</p>
+                    </div>
+                </li>
+
+                <li class="card-scene">
+                    <figure class="card-scene__media">
+                        <img class="card-scene__img" src="/assets/img/scene-vibrations.avif"
+                            alt="Scène vibrations Vibra Dub" loading="lazy" />
+                        <figcaption class="card-scene__overlay">
+                            <span class="card-scene__cta">En savoir plus</span>
+                        </figcaption>
+                    </figure>
+                    <div class="card-scene__body">
+                        <p class="card-scene__name">Scène vibrations</p>
+                        <p class="card-scene__subtitle">Vibra Dub</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <img class="footer__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+        
+            <div class="footer__newsletter">
+                <p class="footer__title">Inscrivez-vous à notre newsletter !</p>
+                <!-- formulaire plus tard -->
+            </div>
+        </div>
+        
+        <nav class="footer__nav">
+            <ul class="footer__list u-list-unstyled">
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/festival.html">Le festival</a></li>
+                <li><a href="/programme.html">Programme</a></li>
+                <li><a href="/artistes.html">Artistes</a></li>
+                <li><a href="/infos.html">Infos pratiques</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="footer__bottom">
+            <p>Rue de Dalse, Audincourt</p>
+            <p>Festival écoresponsable – Echos Sonores</p>
+            <p>Copyright © 2026 Echos Sonores</p>
+        </div>
+    </footer>
+</body>
+
+</html>
