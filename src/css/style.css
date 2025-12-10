@@ -8,6 +8,7 @@
 @import "../css/base/barres.css";
 @import "../components/cardsartistes.css";
 @import "../components/cardsaccueil.css";
+@import "../components/cardsscenes.css";
 
 html,
 body {

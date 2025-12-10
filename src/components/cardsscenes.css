@@ -1,0 +1,69 @@
+.scenes-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card-scene {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-scene__media {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    /* largeur des cartes */
+    margin: 0;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.card-scene__img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-scene__overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-scene__cta {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.35rem 1.2rem;
+    border-radius: 4px;
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 0.8rem;
+}
+
+.card-scene__body {
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.card-scene__name {
+    margin: 0;
+    font-family: "Fredoka", system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.card-scene__subtitle {
+    margin: 0.1rem 0 0;
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 0.85rem;
+    color: #ffffff;
+}
