@@ -43,7 +43,7 @@
           <figure class="artist__hero">
             <img
               class="artist__img"
-              src="/assets/img/chronixx-hero.avif"
+              src="/assets/img/chronixx 1.avif"
               alt="Chronixx en concert"
             />
             <figcaption class="artist__name">Chronixx</figcaption>
@@ -74,19 +74,19 @@
             <div class="artist-gallery__grid">
               <img
                 class="artist-gallery__img"
-                src="/assets/img/chronixx-02.avif"
+                src="/assets/img/chronixx 2.avif"
                 alt="Chronixx sur scène"
                 loading="lazy"
               />
               <img
                 class="artist-gallery__img"
-                src="/assets/img/chronixx-03.avif"
+                src="/assets/img/chronixx 3.avif"
                 alt="Chronixx en concert"
                 loading="lazy"
               />
               <img
                 class="artist-gallery__img"
-                src="/assets/img/chronixx-04.avif"
+                src="/assets/img/chronixx 4.avif"
                 alt="Chronixx en extérieur"
                 loading="lazy"
               />
