@@ -6,6 +6,8 @@
 @import "../components/bouton.css";
 @import "../css/utils/variables.css";
 @import "../css/base/barres.css";
+@import "../components/cardsartistes.css";
+@import "../components/cardsaccueil.css";
 
 html,
 body {

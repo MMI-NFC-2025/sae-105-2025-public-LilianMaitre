@@ -133,3 +133,23 @@ body {
     color: var(--blanc);
 }
 
+.card-artist__name{
+    font-family: "Geologica", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 700;
+    font-size: 1.55rem;
+        /* augmente la taille */
+    color: #ffffff;
+}
+
+.section__meta{
+    font-family: "reggae one", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+}
+
+.card-artist__date {
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0.2rem 0 0;
+}

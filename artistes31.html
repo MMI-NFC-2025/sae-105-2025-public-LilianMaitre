@@ -5,6 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artistes – 31 octobre | Echos Sonores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
 
     <!-- Favicons -->
     <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
@@ -46,23 +52,24 @@
     <main>
         <section class="section section--wrapper section--artists">
             <header class="section__header">
-                <p class="section__kicker">Artistes</p>
-                <h1 class="section__title">31 octobre</h1>
+                <h1 class="section__title">Artistes</h1>
 
-                <ul class="artists-tabs u-list-unstyled">
+                <ul class="artists-tabs">
                     <li class="artists-tabs__item">
-                        <a class="artists-tabs__link" href="/artistes-28.html">28 oct.</a>
+                        <a href="artistes28.html" class="artists-tabs__btn artists-tabs__btn--active">28 oct.</a>
                     </li>
                     <li class="artists-tabs__item">
-                        <a class="artists-tabs__link" href="/artistes-29.html">29 oct.</a>
+                        <a href="artistes29.html" class="artists-tabs__btn">29 oct.</a>
                     </li>
                     <li class="artists-tabs__item">
-                        <a class="artists-tabs__link" href="/artistes-30.html">30 oct.</a>
+                        <a href="artistes30.html" class="artists-tabs__btn">30 oct.</a>
                     </li>
-                    <li class="artists-tabs__item artists-tabs__item--active">
-                        <span class="artists-tabs__link">31 oct.</span>
+                    <li class="artists-tabs__item">
+                        <a href="artistes31.html" class="artists-tabs__btn">31 oct.</a>
                     </li>
                 </ul>
+
+                <p class="section__meta">31 octobre</p>
             </header>
 
             <ul class="artists-list u-list-unstyled">
@@ -113,29 +120,50 @@
 
     <footer class="footer">
         <div class="footer__top">
-            <img class="footer__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
-        
+            <img class="footer__logo" src="assets/icons/logo-echos-sonores.svg" alt="Echos Sonores">
+    
             <div class="footer__newsletter">
-                <p class="footer__title">Inscrivez-vous à notre newsletter !</p>
-                <!-- formulaire plus tard -->
+                <p class="footer__newsletter-text">Inscrivez-vous à <br>notre newsletter&nbsp;!</p>
+                <a href="#newsletter" class="footer__btn">Je m’inscris !</a>
             </div>
         </div>
-        
-        <nav class="footer__nav">
-            <ul class="footer__list u-list-unstyled">
-                <li><a href="/">Accueil</a></li>
-                <li><a href="/festival.html">Le festival</a></li>
-                <li><a href="/programme.html">Programme</a></li>
-                <li><a href="/artistes.html">Artistes</a></li>
-                <li><a href="/infos.html">Infos pratiques</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        
-        <div class="footer__bottom">
-            <p>Rue de Dalse, Audincourt</p>
-            <p>Festival écoresponsable – Echos Sonores</p>
-            <p>Copyright © 2026 Echos Sonores</p>
+    
+        <div class="footer__middle">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/festival.html">Le festival</a></li>
+                    <li><a href="/programme.html">Programme</a></li>
+                    <li><a href="/artistes28.html">Artistes</a></li>
+                    <li><a href="/infos.html">Infos pratiques</a></li>
+                    <li><a href="/scenes.html">Scènes</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <div class="footer__partners">
+                <img src="assets/img/l'est republicain.avif" alt="L'Est Républicain" class="footer__partner-logo">
+                <img src="assets/img/logo-ici.svg" alt="Ici" class="footer__partner-logo">
+            </div>
+    
+            <div class="footer__contact">
+                <p class="footer__title">COORDONÉES</p>
+                <span class="infos__coordonees">
+                    <p>Rue de Dasle, Audincourt</p>
+                    <p><a href="mailto:info@echossonores.fr">info@echossonores.fr</a></p>
+                    <p><a href="/contact.html">Page contact</a></p>
+                </span>
+            </div>
+        </div>
+    
+        <div class="footer__legal">
+            <p>
+                <a href="#">Mentions légales</a> ·
+                <a href="#">Politique de confidentialité (RGPD)</a> ·
+                <a href="#">Conditions générales de vente (CGV)</a> ·
+                <a href="#">Gestion des cookies</a>
+            </p>
+            <p class="footer__copyright">Copyright © 2026 Echos Sonores</p>
         </div>
     </footer>
 </body>
