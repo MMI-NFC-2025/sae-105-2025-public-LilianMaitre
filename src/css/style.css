@@ -1,0 +1,8 @@
+@import "layout/header.css";
+@import "layout/footer.css";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
