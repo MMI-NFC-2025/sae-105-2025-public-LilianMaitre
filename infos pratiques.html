@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infos pratiques | Echos Sonores</title>
+
+    <!-- Favicons (adapte les chemins à ton projet) -->
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <!-- CSS global -->
+    <link rel="stylesheet" href="/src/css/style.css" />
+
+    <!-- JS global -->
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body class="page-infos">
+    <header class="header">
+        <a class="header__link" href="/">
+            <img class="header__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+        </a>
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item"><a class="menu__link" href="/">Accueil</a></li>
+                <li class="menu__item"><a class="menu__link" href="/festival.html">Le festival</a></li>
+                <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
+                <li class="menu__item"><a class="menu__link" href="/artistes-28.html">Artistes</a></li>
+                <li class="menu__item"><a class="menu__link" href="/scenes.html">Scènes</a></li>
+                <li class="menu__item"><a class="menu__link" href="/infos.html">Infos pratiques</a></li>
+                <li class="menu__item"><a class="menu__link" href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section section--wrapper section--infos">
+            <header class="section__header">
+                <h1 class="section__title">Infos pratiques</h1>
+            </header>
+
+            <!-- LE FESTIVAL -->
+            <article class="infos-block">
+                <h2 class="infos-block__title">Le festival</h2>
+
+                <p class="infos-block__text">
+                    Dates : du 28 au 31 octobre 2026<br />
+                    Lieu : Audincourt, Rue de Dalse
+                </p>
+
+                <figure class="infos-block__map">
+                    <img src="/assets/img/carte-site.avif"
+                        alt="Localisation du site du festival Echos Sonores à Audincourt" />
+                </figure>
+
+                <div class="infos-block__details">
+                    <p>Ouverture : 15h</p>
+                    <p>Fermeture : 2h du matin</p>
+                    <p>Concerts principaux en soirée à partir de 20h</p>
+                </div>
+            </article>
+
+            <!-- TARIFS -->
+            <article class="infos-block infos-block--tarifs">
+                <h2 class="infos-block__title">Tarifs</h2>
+
+                <div class="infos-block__group">
+                    <h3 class="infos-block__subtitle">Pass multi-jours</h3>
+                    <p>Pass 3 jours au choix : 70€</p>
+                    <p>Billets à l’unité : 35€</p>
+                </div>
+
+                <div class="infos-block__group">
+                    <h3 class="infos-block__subtitle">Tarifs réduits</h3>
+                    <p>Tarif étudiant (18–28 ans)</p>
+                    <p>Tarif jeune (18–25 ans)</p>
+                    <p>Gratuit pour les moins de 12 ans</p>
+                </div>
+
+                <a class="btn btn--primary infos-block__cta" href="/billetterie.html">Billetterie</a>
+            </article>
+
+            <!-- HÉBERGEMENT -->
+            <article class="infos-block infos-block--hebergement">
+                <h2 class="infos-block__title">Hébergement</h2>
+
+                <ul class="infos-list u-list-unstyled">
+                    <li>Hôtel Les Tilleuls Montbéliard sud–Audincourt</li>
+                    <li>Hôtel Restaurant du Jura</li>
+                    <li>Val Hôtel, Montbéliard Sud</li>
+                </ul>
+
+                <a class="btn btn--secondary infos-block__cta" href="/hebergements.html">
+                    Voir les hébergements
+                </a>
+            </article>
+
+            <!-- TRANSPORTS -->
+            <article class="infos-block infos-block--transport">
+                <h2 class="infos-block__title">Transport</h2>
+
+                <div class="transport-grid">
+                    <a class="transport-card" href="#">
+                        <span class="transport-card__icon" aria-hidden="true">🚗</span>
+                        <span class="transport-card__label">Covoiturage</span>
+                    </a>
+
+                    <a class="transport-card" href="#">
+                        <span class="transport-card__icon" aria-hidden="true">🚌</span>
+                        <span class="transport-card__label">Bus</span>
+                    </a>
+
+                    <a class="transport-card" href="#">
+                        <span class="transport-card__icon" aria-hidden="true">🚆</span>
+                        <span class="transport-card__label">Trains</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- FAQ -->
+            <article class="infos-block infos-block--faq">
+                <h2 class="infos-block__title">Questions fréquentes</h2>
+
+                <div class="faq">
+                    <button class="faq__item" type="button">
+                        <span class="faq__question">
+                            Quels sont les horaires d’ouverture du festival et des concerts chaque jour ?
+                        </span>
+                        <span class="faq__icon" aria-hidden="true">+</span>
+                    </button>
+
+                    <button class="faq__item" type="button">
+                        <span class="faq__question">
+                            Quels types de billets sont proposés et comment les acheter ?
+                        </span>
+                        <span class="faq__icon" aria-hidden="true">+</span>
+                    </button>
+
+                    <button class="faq__item" type="button">
+                        <span class="faq__question">
+                            Le festival est-il éco-responsable et quelles actions sont mises en place ?
+                        </span>
+                        <span class="faq__icon" aria-hidden="true">+</span>
+                    </button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <img class="footer__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+        
+            <div class="footer__newsletter">
+                <p class="footer__title">Inscrivez-vous à notre newsletter !</p>
+                <!-- formulaire plus tard -->
+            </div>
+        </div>
+        
+        <nav class="footer__nav">
+            <ul class="footer__list u-list-unstyled">
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/festival.html">Le festival</a></li>
+                <li><a href="/programme.html">Programme</a></li>
+                <li><a href="/artistes.html">Artistes</a></li>
+                <li><a href="/infos.html">Infos pratiques</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="footer__bottom">
+            <p>Rue de Dalse, Audincourt</p>
+            <p>Festival écoresponsable – Echos Sonores</p>
+            <p>Copyright © 2026 Echos Sonores</p>
+        </div>
+    </footer>
+</body>
+
+</html>
