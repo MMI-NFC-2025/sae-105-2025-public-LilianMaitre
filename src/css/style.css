@@ -2,6 +2,7 @@
 @import "layout/footer.css";
 @import "../components/hero.css";
 @import "base/main.css";
+@import "base/media.css";
 
 html,
 body {
