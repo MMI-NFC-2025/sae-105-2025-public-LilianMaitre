@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chronixx – Artistes | Echos Sonores</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
   </head>
@@ -17,6 +22,7 @@
     
     <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
         <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+        <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
         <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
     </button>
     
@@ -43,7 +49,7 @@
           <figure class="artist__hero">
             <img
               class="artist__img"
-              src="/assets/img/chronixx 1.avif"
+              src="/assets/img/chronixx2.webp"
               alt="Chronixx en concert"
             />
             <figcaption class="artist__name">Chronixx</figcaption>
@@ -69,29 +75,23 @@
           </section>
 
           <!-- Autres visuels de l’artiste -->
-          <section class="artist-gallery">
-            <h2 class="artist__subtitle">Galerie</h2>
-            <div class="artist-gallery__grid">
-              <img
-                class="artist-gallery__img"
-                src="/assets/img/chronixx 2.avif"
-                alt="Chronixx sur scène"
-                loading="lazy"
-              />
-              <img
-                class="artist-gallery__img"
-                src="/assets/img/chronixx 3.avif"
-                alt="Chronixx en concert"
-                loading="lazy"
-              />
-              <img
-                class="artist-gallery__img"
-                src="/assets/img/chronixx 4.avif"
-                alt="Chronixx en extérieur"
-                loading="lazy"
-              />
+        <section class="artist-gallery">
+          <h2 class="artist__subtitle">Galerie</h2>
+        
+          <div class="artist-gallery__wrapper">
+            <button class="artist-gallery__arrow artist-gallery__arrow--prev" type="button"
+              aria-label="Image précédente">‹</button>
+        
+            <div class="artist-gallery__slider">
+              <img class="artist-gallery__slide" src="/assets/img/chronixx2.webp" alt="Chronixx 1">
+              <img class="artist-gallery__slide" src="/assets/img/chronixx3.webp" alt="Chronixx 2">
+              <img class="artist-gallery__slide" src="/assets/img/chronixx4.webp" alt="Chronixx 3">
             </div>
-          </section>
+        
+            <button class="artist-gallery__arrow artist-gallery__arrow--next" type="button"
+              aria-label="Image suivante">›</button>
+          </div>
+        </section>
         </article>
       </section>
     </main>
