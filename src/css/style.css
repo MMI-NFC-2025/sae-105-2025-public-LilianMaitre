@@ -10,6 +10,7 @@
 @import "../components/cardsaccueil.css";
 @import "../components/cardsscenes.css";
 @import "../src/components/formulairecontact.css";
+@import "../components/menu.css";
 
 html,
 body {

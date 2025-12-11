@@ -1,0 +1,82 @@
+/* Bouton hamburger */
+.menu-btn {
+    width: 40px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.menu-btn__bar {
+    width: 100%;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 999px;
+}
+
+/* Menu plein écran */
+/* Forcer l'affichage du menu plein écran */
+/* état de base : nav caché (hidden=true) => plus affiché */
+#mainNav[hidden] {
+    display: none;
+}
+
+/* nav visible : display flex, mais animée via .menu--open */
+#mainNav {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    background-color: #00751f;
+    padding: 4.5rem 1.5rem 2rem;
+    display: flex;
+    align-items: flex-start;
+
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+/* quand le menu est ouvert */
+#mainNav.menu--open {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* animation des items */
+#mainNav .menu__item {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+#mainNav.menu--open .menu__item {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#mainNav.menu--open .menu__item:nth-child(1) {
+    transition-delay: 0.05s;
+}
+
+#mainNav.menu--open .menu__item:nth-child(2) {
+    transition-delay: 0.10s;
+}
+
+#mainNav.menu--open .menu__item:nth-child(3) {
+    transition-delay: 0.15s;
+}
+
+#mainNav.menu--open .menu__item:nth-child(4) {
+    transition-delay: 0.20s;
+}
+
+#mainNav.menu--open .menu__item:nth-child(5) {
+    transition-delay: 0.25s;
+}
+
+#mainNav.menu--open .menu__item:nth-child(6) {
+    transition-delay: 0.30s;
+}
