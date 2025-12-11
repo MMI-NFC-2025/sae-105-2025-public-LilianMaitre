@@ -316,3 +316,72 @@ body {
     color: #ffffff;
     text-decoration: underline;
 }
+
+/* Page artistes : bande verte + titre */
+.page-artists {
+    background-color: #0ba138;
+    color: #ffffff;
+    font-family: "Montserrat", system-ui, sans-serif;
+}
+
+.section--artists {
+    max-width: 480px;
+    margin: 0 auto 3rem;
+    padding: 0;
+}
+
+/* Zone titre + onglets */
+.section--artists .section__header {
+    text-align: center;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+/* Titre "Artistes" */
+.section--artists .section__title {
+    margin: 0 0 0.8rem;
+    font-family: "Fredoka", system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Onglets de dates (pastilles) */
+.artists-tabs {
+    list-style: none;
+    margin: 0 0 0.4rem;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.artists-tabs__item {
+    margin: 0;
+}
+
+.artists-tabs__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 80px;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    background-color: #808080;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+.artists-tabs__btn--active {
+    background-color: #262626;
+}
+
+/* "29 octobre" sous les pastilles */
+.section--artists {
+    margin: 0.4rem 0 1.2rem;
+    font-family: "Fredoka", system-ui, sans-serif;
+    font-size: 1.5rem;
+}
+

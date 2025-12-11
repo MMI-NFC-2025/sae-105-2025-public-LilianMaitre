@@ -131,3 +131,19 @@
 .transport-card__label {
     display: block;
 }
+
+.artists-tabs__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 60px;
+    /* avant : 80 ou 90px, diminue cette valeur */
+    padding: 0.7rem 0.9rem;
+    /* moins de padding = bouton plus court */
+    border-radius: 999px;
+    background-color: #808080;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 0.85rem;
+}
