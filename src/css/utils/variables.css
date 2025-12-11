@@ -5,6 +5,11 @@
     --rouge: #e30000;;
     --vert-foncé: #006711;
     --blanc: #ffffff;
+    --gris-foncé: #333333;
+    --gris-clair: #777777;
+    --gris: #808080;
+    --sombre : #262626;
+    --noir : #000000;
     
     /* polices */
     --police-principale: 'Arial', sans-serif;

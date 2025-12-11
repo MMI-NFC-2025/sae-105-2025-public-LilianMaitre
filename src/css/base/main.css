@@ -29,7 +29,7 @@ body {
 .section__meta {
     font-family: "Metropolis", system-ui, -apple-system, sans-serif;
     font-weight: 400;
-    color: #ffffff;
+    color: var(--blanc);
     /* blanc visible */
     font-size: var(--text-lg);
     opacity: 1 !important;
@@ -39,7 +39,7 @@ body {
 
 .tarifs__subtitle{
     font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    color: #ffffff;
+    color: var(--blanc);
     margin: 0;
     font-size : var(--text-xl);
 }
@@ -47,7 +47,7 @@ body {
 .tarifs__price {
     font-family: "Metropolis", system-ui, -apple-system, sans-serif;
         font-weight: 400;
-        color: #ffffff;
+        color: var(--blanc);
         /* blanc visible */
         font-size: var(--text-lg);
         opacity: 1 !important;
@@ -138,7 +138,7 @@ body {
     font-weight: 700;
     font-size: 1.55rem;
         /* augmente la taille */
-    color: #ffffff;
+    color: var(--blanc);
 }
 
 .section__header{
@@ -156,7 +156,7 @@ body {
     font-family: "Montserrat", system-ui, sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
-    color: #ffffff;
+    color: var(--blanc);
     margin: 0.2rem 0 0;
 }
 
@@ -189,7 +189,7 @@ body {
     font-family: "Montserrat", system-ui, sans-serif;
     font-size: 1rem;
     line-height: 1.4;
-    color: #ffffff;
+    color: var(--blanc);
 }
 
 .faq__icon {
@@ -197,12 +197,12 @@ body {
     margin-left: 1rem;
     font-size: 1.6rem;
     line-height: 1;
-    color: #ffffff;
+    color: var(--blanc);
 }
 
 .contact-page {
     padding: 1.5rem 1.5rem 3rem;
-    color: #ffffff;
+    color: var(--blanc);
     font-family: "Montserrat", system-ui, sans-serif;
 
     max-width: 320px;
@@ -244,8 +244,8 @@ body {
     padding: 0.7rem 1rem;
     font-size: 0.95rem;
     font-family: inherit;
-    background-color: rgba(255, 255, 255, 0.85);
-    color: #333333;
+    background-color: var(--blanc);
+    color: var(--gris-foncé);
 }
 
 .contact-form textarea {
@@ -257,7 +257,7 @@ body {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color: #777777;
+    color: var(--gris-clair);
 }
 
 /* bouton supprimé ou déplacé si tu n’en veux plus ici */
@@ -319,14 +319,14 @@ body {
 }
 
 .contact-list a {
-    color: #ffffff;
+    color: var(--blanc);
     text-decoration: underline;
 }
 
 /* Page artistes : bande verte + titre */
 .page-artists {
-    background-color: #0ba138;
-    color: #ffffff;
+    background-color: var(--fond);
+    color: var(--blanc);
     font-family: "Montserrat", system-ui, sans-serif;
 }
 
@@ -351,51 +351,49 @@ body {
     font-weight: 700;
 }
 
-/* Onglets de dates (pastilles) */
+
 .artists-tabs {
     list-style: none;
     margin: 0 0 0.4rem;
     padding: 0;
-
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.7rem;
 }
 
 .artists-tabs__item {
     margin: 0;
+    justify-content: flex-start;
 }
 
 .artists-tabs__btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
     min-width: 80px;
-    padding: 0.4rem 0.9rem;
+    padding: 0.3rem 0.8rem;
     border-radius: 999px;
-    background-color: #808080;
-    color: #ffffff;
+    background-color: var(--gris);
+    color: var(--blanc);
     text-decoration: underline;
     font-size: 0.9rem;
+    text-decoration: none;
 }
 
 .artists-tabs__btn--active {
-    background-color: #262626;
+    background-color: var(--sombre);
 }
 
-/* "29 octobre" sous les pastilles */
 .section--artists {
     margin: 0.4rem 0 1.2rem;
     font-family: "Fredoka", system-ui, sans-serif;
     font-size: 1.5rem;
-    max-width: none;
+    max-width: 480px;
 }
 
-/* Page artiste */
 .page-artist {
-    background-color: #0ba138;
-    color: #ffffff;
+    background-color: var(--fond);
+    color: var(--blanc);
     font-family: "Montserrat", system-ui, sans-serif;
 }
 
@@ -508,7 +506,7 @@ body {
 /* flèches */
 .artist-gallery__arrow {
     background: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
+    color: var(--blanc);
     border: none;
     border-radius: 999px;
     width: 36px;

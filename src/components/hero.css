@@ -22,7 +22,7 @@
 .hero__kicker,
 .hero__place {
     font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    color: #ffffff;
+    color: var(--blanc);
     margin: 0;
 }
 

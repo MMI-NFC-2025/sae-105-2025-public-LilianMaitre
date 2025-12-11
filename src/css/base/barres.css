@@ -13,14 +13,14 @@
     height: 2px;
     /* plus fine */
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: var(--blanc);
     border-radius: 999px;
 }
 
 .program-table {
     width: 100%;
     border-collapse: collapse;
-    color: #ffffff;
+    color: var(--blanc);
     font-size: 0.95rem;
 }
 
@@ -39,7 +39,7 @@
 .program-table {
     width: 100%;
     border-collapse: collapse;
-    color: #ffffff;
+    color: var(--blanc);
     font-size: 0.95rem;
 }
 
@@ -75,7 +75,7 @@
     /* barre quasi pleine largeur */
     height: 2px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: var(--blanc);
     border-radius: 999px;
 }
 .program-table-wrapper {

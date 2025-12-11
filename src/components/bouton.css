@@ -1,9 +1,9 @@
 .btn-ticket {
     display: block;
     padding: 1rem 2.5rem;
-    background-color: #e30000;
+    background-color: var(--rouge);
     /* rouge vif */
-    color: #ffffff;
+    color: var(--blanc);
     font-family: "Geologica", system-ui, sans-serif;
     /* ou ta font */
     font-weight: 700;
@@ -21,7 +21,7 @@
 
 /* hover */
 .btn-ticket:hover {
-    background-color: #ff1c1c;
+    background-color: var(--rouge);
     transform: translateY(-1px);
 }
 
@@ -43,7 +43,7 @@
 }
 
 .btn--primary:hover {
-    background-color: #ff1c1c;
+    background-color: var(--rouge);
         transform: translateY(-1px);
 }
 
@@ -64,9 +64,9 @@
 .artists-tabs__btn {
     padding: 0.2rem 0.7rem;
     border-radius: 999px;
-    border: 1px solid #ffffff;
+    border: 1px solid var(--blanc);
     background: transparent;
-    color: #ffffff;
+    color: var(--blanc);
     font-size: 0.75rem;
     cursor: pointer;
 }
@@ -142,8 +142,8 @@
     padding: 0.7rem 0.9rem;
     /* moins de padding = bouton plus court */
     border-radius: 999px;
-    background-color: #808080;
-    color: #ffffff;
+    background-color: var(--gris);
+    color: var(--blanc);
     text-decoration: underline;
     font-size: 0.85rem;
 }

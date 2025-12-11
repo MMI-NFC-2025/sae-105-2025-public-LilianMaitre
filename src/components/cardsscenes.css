@@ -39,8 +39,8 @@
 }
 
 .card-scene__cta {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--noir);
+    color: var(--blanc);
     padding: 0.5rem 2rem;
     border-radius: 4px;
     font-family: "Montserrat", system-ui, sans-serif;
@@ -57,14 +57,14 @@
     font-family: "montserrat", system-ui, sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
-    color: #ffffff;
+    color: var(--blanc);
 }
 
 .card-scene__subtitle {
     margin: 0.1rem 0 0;
     font-family: "Montserrat", system-ui, sans-serif;
     font-size: 0.85rem;
-    color: #ffffff;
+    color: var(--blanc);
 }
 
 .card-scene__link {

@@ -86,7 +86,7 @@
 }
 
 .footer__legal a {
-    color: #ffffff;
+    color: var(--blanc);
     text-decoration: none;
     font-size: 0.8rem;
 }

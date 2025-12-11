@@ -13,7 +13,7 @@
 .menu-btn__bar {
     width: 100%;
     height: 4px;
-    background: #ffffff;
+    background: var(--blanc);
     border-radius: 999px;
 }
 
@@ -29,7 +29,7 @@
     position: fixed;
     inset: 0;
     z-index: 999;
-    background-color: #00751f;
+    background-color: var(--vert-foncé);
     padding: 4.5rem 1.5rem 2rem;
     display: flex;
     flex-direction: column;
