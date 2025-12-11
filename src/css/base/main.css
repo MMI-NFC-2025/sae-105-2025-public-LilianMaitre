@@ -198,6 +198,9 @@ body {
     padding: 1.5rem 1.5rem 3rem;
     color: #ffffff;
     font-family: "Montserrat", system-ui, sans-serif;
+
+    max-width: 320px;
+    margin: 0 auto;
 }
 
 .contact-page__title {
@@ -215,3 +218,101 @@ body {
     margin: 2rem 0 1rem;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem 1rem;
+    font-size: 0.95rem;
+    font-family: inherit;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #333333;
+}
+
+.contact-form textarea {
+    border-radius: 14px;
+    /* comme sur la maquette */
+    min-height: 140px;
+    resize: vertical;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #777777;
+}
+
+/* bouton supprimé ou déplacé si tu n’en veux plus ici */
+.contact-form button {
+    margin-top: 1.2rem;
+    align-self: center;
+}
+
+/* liste de réseaux */
+.social-list {
+    list-style: none;
+    /* enlève les points */
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    /* aligne horizontalement */
+    gap: 1rem;
+    /* espace entre les icônes */
+    align-items: center;
+}
+
+/* items */
+.social-list__item {
+    margin: 0;
+}
+
+/* liens + icônes */
+.social-list__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-list__link img {
+    display: block;
+    width: 40px;
+    /* ajuste la taille des icônes */
+    height: 40px;
+}
+
+.contact-list {
+    list-style: none;
+    /* enlève les points */
+    margin: 0;
+    padding: 0;
+}
+
+.contact-list__item {
+    display: flex;
+    /* aligne icône + texte sur la même ligne */
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.4rem;
+}
+
+.contact-list__icon {
+    font-size: 1.1rem;
+}
+
+.contact-list a {
+    color: #ffffff;
+    text-decoration: underline;
+}

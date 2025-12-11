@@ -56,3 +56,67 @@
     height: auto;
     object-fit: contain;
 }
+
+/* Fond général */
+.page-scene {
+    background-color: #0ba138;
+    color: #ffffff;
+    font-family: "Montserrat", system-ui, sans-serif;
+}
+
+/* Bloc central */
+.section--scene-detail {
+    max-width: 480px;
+    margin: 0 auto 3rem;
+    padding: 0;
+}
+
+/* Bande verte + titre SCENES */
+.section__header {
+    background-color: #0ba138;
+    text-align: center;
+    padding: 0.8rem 0;
+}
+
+.section__title {
+    margin: 0;
+    font-family: "Fredoka", system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Image de scène */
+.scene-hero {
+    position: relative;
+    margin: 0;
+}
+
+.scene-hero__img {
+    width: 100%;
+    display: block;
+    max-height: 360px;
+    object-fit: cover;
+}
+
+/* Texte Echo Roots en bas de l’image */
+.scene-hero::after {
+    content: "Echo Roots";
+    position: absolute;
+    left: 0.7rem;
+    bottom: 0.8rem;
+    font-family: "Fredoka", system-ui, sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Bande verte + titre Artistes */
+.scene-detail__subtitle {
+    margin: 0;
+    padding: 0.8rem 0;
+    background-color: #0ba138;
+    text-align: center;
+    font-family: "Fredoka", system-ui, sans-serif;
+    font-size: 1.8rem;
+}

@@ -5,7 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scène Echo Roots | Echos Sonores</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
 </head>
@@ -36,7 +41,7 @@
     <main>
         <section class="section section--wrapper section--scene-detail">
             <header class="section__header">
-                <h1 class="section__title">Echo Roots</h1>
+                <h1 class="section__title">Scènes</h1>
             </header>
 
             <!-- Visuel de la scène -->
@@ -45,14 +50,14 @@
             </figure>
 
             <!-- Liste des artistes sur cette scène -->
-            <h2 class="scene-detail__subtitle">Artistes</h2>
+            <h2 class="section__meta">Artistes</h2>
 
             <ul class="artists-list u-list-unstyled">
                 <li class="card-artist">
                     <img class="card-artist__img" src="/assets/img/ziggymarley.webp" alt="Ziggy Marley"
                         loading="lazy" />
                     <div class="card-artist__body">
-                        <p class="card-artist__name">Ziggy Marley</p>
+                        <p class="geologica-bold">Ziggy Marley</p>
                         <p class="card-artist__date">28 octobre 2026 – 20h</p>
                     </div>
                 </li>
@@ -60,7 +65,7 @@
                 <li class="card-artist">
                     <img class="card-artist__img" src="/assets/img/koffee.webp" alt="Koffee" loading="lazy" />
                     <div class="card-artist__body">
-                        <p class="card-artist__name">Koffee</p>
+                        <p class="geologica-bold">Koffee</p>
                         <p class="card-artist__date">29 octobre 2026 – 17h30</p>
                     </div>
                 </li>
@@ -68,7 +73,7 @@
                 <li class="card-artist">
                     <img class="card-artist__img" src="/assets/img/shaggy.webp" alt="Shaggy" loading="lazy" />
                     <div class="card-artist__body">
-                        <p class="card-artist__name">Shaggy</p>
+                        <p class="geologica-bold">Shaggy</p>
                         <p class="card-artist__date">29 octobre 2026 – 23h</p>
                     </div>
                 </li>
@@ -76,7 +81,7 @@
                 <li class="card-artist">
                     <img class="card-artist__img" src="/assets/img/protoje.webp" alt="Protoje" loading="lazy" />
                     <div class="card-artist__body">
-                        <p class="card-artist__name">Protoje</p>
+                        <p class="geologica-bold">Protoje</p>
                         <p class="card-artist__date">30 octobre 2026 – 19h</p>
                     </div>
                 </li>
@@ -84,7 +89,7 @@
                 <li class="card-artist">
                     <img class="card-artist__img" src="/assets/img/ryon.webp" alt="Ryon" loading="lazy" />
                     <div class="card-artist__body">
-                        <p class="card-artist__name">Ryon</p>
+                        <p class="geologica-bold">Ryon</p>
                         <p class="card-artist__date">30 octobre 2026 – 23h</p>
                     </div>
                 </li>
@@ -93,7 +98,7 @@
                     <img class="card-artist__img" src="/assets/img/collie budz.webp" alt="Collie Buddz"
                         loading="lazy" />
                     <div class="card-artist__body">
-                        <p class="card-artist__name">Collie Buddz</p>
+                        <p class="geologica-bold">Collie Buddz</p>
                         <p class="card-artist__date">31 octobre 2026 – 16h</p>
                     </div>
                 </li>
@@ -103,29 +108,50 @@
 
     <footer class="footer">
         <div class="footer__top">
-            <img class="footer__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
-        
+            <img class="footer__logo" src="assets/icons/logo-echos-sonores.svg" alt="Echos Sonores">
+    
             <div class="footer__newsletter">
-                <p class="footer__title">Inscrivez-vous à notre newsletter !</p>
-                <!-- formulaire plus tard -->
+                <p class="footer__newsletter-text">Inscrivez-vous à <br>notre newsletter&nbsp;!</p>
+                <a href="#newsletter" class="footer__btn">Je m’inscris !</a>
             </div>
         </div>
-        
-        <nav class="footer__nav">
-            <ul class="footer__list u-list-unstyled">
-                <li><a href="/">Accueil</a></li>
-                <li><a href="/festival.html">Le festival</a></li>
-                <li><a href="/programme.html">Programme</a></li>
-                <li><a href="/artistes.html">Artistes</a></li>
-                <li><a href="/infos.html">Infos pratiques</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        
-        <div class="footer__bottom">
-            <p>Rue de Dalse, Audincourt</p>
-            <p>Festival écoresponsable – Echos Sonores</p>
-            <p>Copyright © 2026 Echos Sonores</p>
+    
+        <div class="footer__middle">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/festival.html">Le festival</a></li>
+                    <li><a href="/programme.html">Programme</a></li>
+                    <li><a href="/artistes28.html">Artistes</a></li>
+                    <li><a href="/infos.html">Infos pratiques</a></li>
+                    <li><a href="/scenes.html">Scènes</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <div class="footer__partners">
+                <img src="assets/img/l'est republicain.avif" alt="L'Est Républicain" class="footer__partner-logo">
+                <img src="assets/img/logo-ici.svg" alt="Ici" class="footer__partner-logo">
+            </div>
+    
+            <div class="footer__contact">
+                <p class="footer__title">COORDONÉES</p>
+                <span class="infos__coordonees">
+                    <p>Rue de Dasle, Audincourt</p>
+                    <p><a href="mailto:info@echossonores.fr">info@echossonores.fr</a></p>
+                    <p><a href="/contact.html">Page contact</a></p>
+                </span>
+            </div>
+        </div>
+    
+        <div class="footer__legal">
+            <p>
+                <a href="#">Mentions légales</a> ·
+                <a href="#">Politique de confidentialité (RGPD)</a> ·
+                <a href="#">Conditions générales de vente (CGV)</a> ·
+                <a href="#">Gestion des cookies</a>
+            </p>
+            <p class="footer__copyright">Copyright © 2026 Echos Sonores</p>
         </div>
     </footer>
 </body>
