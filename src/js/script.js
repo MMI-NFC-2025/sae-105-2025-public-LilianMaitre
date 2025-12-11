@@ -1,3 +1,5 @@
+//MENU visible interactif sur toutes les pages
+
 const menuBtn = document.querySelector('.menu-btn');
 const siteMenu = document.getElementById('mainNav');
 
@@ -37,11 +39,8 @@ if (menuBtn && siteMenu) {
 
 
 
+//Carousel dans la page templatechronixx.html
 
-
-
-
-// CAROUSEL
 const gallerySlider = document.querySelector('.artist-gallery__slider');
 const slides = document.querySelectorAll('.artist-gallery__slide');
 
