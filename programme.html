@@ -22,24 +22,29 @@
 
 <body class="page-program">
     <header class="header">
-        <a class="header__link" href="/">
-            <img class="header__logo" src="/assets/icons/logo-echos-sonores.svg" alt="Echos Sonores" />
+        <a class="header__link" href="#">
+            <img class="header__logo" src="assets/icons/logo-echos-sonores.svg" alt="Echos Sonores">
         </a>
-        
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
-            <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
-            <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+    
+        <button class="header__menu-btn menu-btn" type="button" aria-label="menu" aria-expanded="false"
+            aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+            <span class="menu-btn__bar" aria-hidden="true"></span>
         </button>
-        
+    
         <nav class="header__menu menu" id="mainNav" hidden>
-            <ul class="menu__list u-list-unstyled">
-                <li class="menu__item"><a class="menu__link" href="/">Accueil</a></li>
-                <li class="menu__item"><a class="menu__link" href="/festival.html">Le festival</a></li>
-                <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
-                <li class="menu__item"><a class="menu__link" href="/artistes-31.html">Artistes</a></li>
-                <li class="menu__item"><a class="menu__link" href="/infos.html">Infos pratiques</a></li>
-                <li class="menu__item"><a class="menu__link" href="/contact.html">Contact</a></li>
+            <a href="index.html" class="menu__logo">
+                <img src="assets/icons/logo-echos-sonores.svg" alt="Echos Sonores">
+            </a>
+            <ul class="site-menu__list">
+                <li><a class="site-menu__link" href="/">Accueil</a></li>
+                <li><a class="site-menu__link" href="/festival.html">Le festival</a></li>
+                <li><a class="site-menu__link" href="/programme.html">Programme</a></li>
+                <li><a class="site-menu__link" href="/artistes28.html">Artistes</a></li>
+                <li><a class="site-menu__link" href="/infos.html">Infos pratiques</a></li>
+                <li><a class="site-menu__link" href="/scenes.html">Scènes</a></li>
+                <li><a class="site-menu__link" href="/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>

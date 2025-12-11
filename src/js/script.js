@@ -3,7 +3,7 @@ const siteMenu = document.getElementById('mainNav');
 
 if (menuBtn && siteMenu) {
     const OPEN_CLASS = 'menu--open';
-    const ANIM_DURATION = 250; // doit matcher le CSS
+    const ANIM_DURATION = 250;
 
     const openMenu = () => {
         siteMenu.hidden = false;
@@ -18,7 +18,6 @@ if (menuBtn && siteMenu) {
         menuBtn.classList.remove('menu-btn--open');
         menuBtn.setAttribute('aria-expanded', 'false');
         document.body.style.overflow = '';
-        // on remet hidden APRÈS l’animation
         setTimeout(() => {
             if (!siteMenu.classList.contains(OPEN_CLASS)) {
                 siteMenu.hidden = true;
@@ -35,6 +34,8 @@ if (menuBtn && siteMenu) {
         }
     });
 }
+
+
 
 
 

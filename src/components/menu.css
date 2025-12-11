@@ -32,14 +32,15 @@
     background-color: #00751f;
     padding: 4.5rem 1.5rem 2rem;
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
+    padding: 1.5rem;
 
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
-/* quand le menu est ouvert */
 #mainNav.menu--open {
     opacity: 1;
     transform: translateY(0);
@@ -79,4 +80,8 @@
 
 #mainNav.menu--open .menu__item:nth-child(6) {
     transition-delay: 0.30s;
+}
+
+.site-menu__list {
+    list-style: none;
 }

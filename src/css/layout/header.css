@@ -9,7 +9,6 @@ header.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* logo à gauche, burger à droite */
     z-index: 1000;
 }
 
@@ -30,12 +29,13 @@ main {
     padding: 0;
     border: none;
     background: transparent;
+    z-index : 2001;
 }
 
 .menu-btn {
     position: relative;
-    width: 32px;
-    height: 24px;
+    width: 40px;
+    height: 28px;
     cursor: pointer;
 }
 
@@ -53,18 +53,18 @@ main {
 }
 
 .menu-btn__bar:nth-child(1) {
-    top: 50%;
-    transform: translateY(-10px);
+    top: 10.5px;
+    transform: translateY(-11px);
 }
 
 .menu-btn__bar:nth-child(2) {
-    top: 50%;
-    transform: translateY(-1px);
+    top: 10.5px;
+    transform: translateY(0);
 }
 
 .menu-btn__bar:nth-child(3) {
-    top: 50%;
-    transform: translateY(9px);
+    top: 10.5px;
+    transform: translateY(11px);
 }
 
 /* ÉTAT OUVERT : croix */
@@ -81,4 +81,11 @@ main {
     bottom: auto;
     top: 10.5px;
     transform: rotate(-45deg);
+}
+
+#mainNav ul,
+#mainNav li {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
 }
