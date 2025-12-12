@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Maitre
+- PRÉNOM : Lilian
+- GROUPE : B
+- URL du site : echos-sonores.lilian-maitre.fr
+- URL FIGMA : https://www.figma.com/design/vKeAgF9551fLLPIfvFe9YL/Maquette-SAE-105?node-id=1-2&t=63I7W6NH3RQgRn4f-1
 
 ## Sujet
 
