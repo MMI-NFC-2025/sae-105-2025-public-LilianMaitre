@@ -84,5 +84,20 @@ window.addEventListener('scroll', toggleBackToTop, { passive: true });
 toggleBackToTop();
 
 
+// Lazy loading pour les images hors écran
+const enableLazyLoading = () => {
+    const imgs = document.querySelectorAll('img:not([loading])');
+    imgs.forEach((img) => {
+        img.loading = 'lazy';
+    });
+};
+
+if ('loading' in HTMLImageElement.prototype) {
+    enableLazyLoading();
+} else {
+    window.addEventListener('DOMContentLoaded', enableLazyLoading, { once: true });
+}
+
+
 
 
