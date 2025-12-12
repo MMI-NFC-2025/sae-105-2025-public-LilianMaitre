@@ -11,7 +11,7 @@ body {
 
 .reggae-title {
     font-family: "Reggae One", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    color : var(--blanc);
+    color: var(--blanc);
 }
 
 
@@ -20,11 +20,11 @@ body {
     font-weight: 700;
 }
 
-  .roundy-like {
-      font-family: "Fredoka", system-ui, -apple-system, "Segoe UI", sans-serif;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-  }
+.roundy-like {
+    font-family: "Fredoka", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
 
 .section__meta {
     font-family: "Metropolis", system-ui, -apple-system, sans-serif;
@@ -37,118 +37,118 @@ body {
     margin: 0;
 }
 
-.tarifs__subtitle{
+.tarifs__subtitle {
     font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     color: var(--blanc);
     margin: 0;
-    font-size : var(--text-xl);
+    font-size: var(--text-xl);
 }
 
 .tarifs__price {
     font-family: "Metropolis", system-ui, -apple-system, sans-serif;
-        font-weight: 400;
-        color: var(--blanc);
-        /* blanc visible */
-        font-size: var(--text-lg);
-        opacity: 1 !important;
-        /* force la visibilité */
-        margin: 0.25rem;
+    font-weight: 400;
+    color: var(--blanc);
+    /* blanc visible */
+    font-size: var(--text-lg);
+    opacity: 1 !important;
+    /* force la visibilité */
+    margin: 0.25rem;
 }
 
-.section__meta 
-.date-rouge{
+.section__meta .date-rouge {
     color: var(--rouge);
 }
 
-.footer__logo{
-    width : auto;
-    height : 70px;
+.footer__logo {
+    width: auto;
+    height: 70px;
 }
-.footer__newsletter-text{
-    font-family : "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size : var(--text-lg);
+
+.footer__newsletter-text {
+    font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: var(--text-lg);
 
 }
 
-.footer__btn{
-    font-family : "Metropolis", system-ui, -apple-system, sans-serif;
-    font-size : var(--text-sm);
-    font-weight : 400;
+.footer__btn {
+    font-family: "Metropolis", system-ui, -apple-system, sans-serif;
+    font-size: var(--text-sm);
+    font-weight: 400;
 }
 
-.footer__list{
-    font-family : "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-weight : 700;
+.footer__list {
+    font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 700;
 }
 
-.footer__title{
-    font-family : "Metropolis", system-ui, -apple-system, sans-serif;
-    font-size : var(--text-lg);
+.footer__title {
+    font-family: "Metropolis", system-ui, -apple-system, sans-serif;
+    font-size: var(--text-lg);
 }
 
-.footer__legal{
-    font-family : "Metropolis", system-ui, -apple-system, sans-serif;
-    font-size : var(--text-xs);
-}
-
-.infos__coordonees{
-    font-family : "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size : var(--text-base);
-}
-
-.footer__copyright{
+.footer__legal {
     font-family: "Metropolis", system-ui, -apple-system, sans-serif;
     font-size: var(--text-xs);
 }
 
-.section__title{
+.infos__coordonees {
+    font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: var(--text-base);
+}
+
+.footer__copyright {
+    font-family: "Metropolis", system-ui, -apple-system, sans-serif;
+    font-size: var(--text-xs);
+}
+
+.section__title {
     font-family: "fredoka", system-ui, -apple-system, "Segoe UI", sans-serif;
     color: var(--blanc);
     text-align: center;
 }
 
-.about-block__title{
+.about-block__title {
     font-family: "reggae one", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     color: var(--blanc);
 }
 
-.about-block__text{
+.about-block__text {
     font-family: "montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     color: var(--blanc);
 }
 
-.about-value__title{
+.about-value__title {
     font-family: "metropolis", system-ui, -apple-system, sans-serif;
     color: var(--rouge);
 }
 
-.about-value__text{
+.about-value__text {
     font-family: "montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     color: var(--blanc);
-    font-size : var(--text-base)
+    font-size: var(--text-base)
 }
 
-.program-table{
+.program-table {
     font-family: "metropolis", system-ui, -apple-system, sans-serif;
     color: var(--blanc);
 }
 
-.card-artist__name{
+.card-artist__name {
     font-family: "Geologica", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-weight: 700;
     font-size: 1.55rem;
-        /* augmente la taille */
+    /* augmente la taille */
     color: var(--blanc);
 }
 
-.section__header{
+.section__header {
     font-family: "Reggae One", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     background-color: none;
     text-align: center;
     padding: 0.5rem 0;
 }
 
-.section__meta{
+.section__meta {
     font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -518,16 +518,52 @@ body {
     font-size: 1.4rem;
 }
 
-.artist__name{
+.artist__name {
     font-family: "Montserrat", system-ui, sans-serif;
     font-size: 2.1rem;
     font-weight: 700;
 }
 
-.site-menu__link{
+.site-menu__link {
     font-family: "metropolis", system-ui, sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color : var(--blanc);
+    color: var(--blanc);
     text-decoration: none;
+}
+
+/* Bouton retour en haut */
+.back-to-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1.5rem;
+    width: 56px;
+    height: 56px;
+    border: none;
+    border-radius: 16px;
+    background-color: var(--rouge);
+    color: var(--blanc, #ffffff);
+    font-size: 1.35rem;
+    font-weight: 800;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(10px);
+    transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    z-index: 1100;
+}
+
+.back-to-top:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.32);
+    transform: translateY(6px);
+}
+
+.back-to-top.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
 }

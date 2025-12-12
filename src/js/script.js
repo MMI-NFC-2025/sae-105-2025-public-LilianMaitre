@@ -61,5 +61,28 @@ if (gallerySlider && slides.length) {
 }
 
 
+// Bouton retour en haut de page, visible dans toutes les pages quand on scroll
+const backToTopBtn = document.createElement('button');
+backToTopBtn.type = 'button';
+backToTopBtn.className = 'back-to-top';
+backToTopBtn.setAttribute('aria-label', 'Remonter en haut');
+backToTopBtn.setAttribute('aria-hidden', 'true');
+backToTopBtn.textContent = '↑';
+document.body.appendChild(backToTopBtn);
+
+const toggleBackToTop = () => {
+    const isVisible = window.scrollY > 200;
+    backToTopBtn.classList.toggle('is-visible', isVisible);
+    backToTopBtn.setAttribute('aria-hidden', isVisible ? 'false' : 'true');
+};
+
+backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+window.addEventListener('scroll', toggleBackToTop, { passive: true });
+toggleBackToTop();
+
+
 
 
