@@ -48,126 +48,136 @@
     </nav>
 </header>
 
-    <main>
-        <section class="section section--wrapper section--artists">
-            <header class="section__header">
-                <h1 class="section__title">Artistes</h1>
+<main>
+    <section class="section section--wrapper section--artists">
+        <header class="section__header">
+            <h1 class="section__title">Artistes</h1>
 
-                <ul class="artists-tabs">
-                    <li class="artists-tabs__item">
-                        <a href="artistes28.html" class="artists-tabs__btn artists-tabs__btn--active">28 oct.</a>
-                    </li>
-                    <li class="artists-tabs__item">
-                        <a href="artistes29.html" class="artists-tabs__btn">29 oct.</a>
-                    </li>
-                    <li class="artists-tabs__item">
-                        <a href="artistes30.html" class="artists-tabs__btn">30 oct.</a>
-                    </li>
-                    <li class="artists-tabs__item">
-                        <a href="artistes31.html" class="artists-tabs__btn">31 oct.</a>
-                    </li>
-                </ul>
-
-
-                <p class="section__header">28 octobre</p>
-            </header>
-
-            <ul class="artists-list u-list-unstyled">
-                <li class="card-artist">
-                    <img class="card-artist__img" src="/assets/img/broussai.webp" alt="Broussaï" loading="lazy" />
-                    <div class="card-artist__body">
-                        <p class="geologica-bold">Broussaï</p>
-                        <p class="geomanist-regular">28 octobre 2026 – 16h</p>
-                    </div>
+            <ul class="artists-tabs">
+                <li class="artists-tabs__item">
+                    <a href="artistes28.html" class="artists-tabs__btn artists-tabs__btn--active">28 oct.</a>
                 </li>
-
-                <li class="card-artist">
-                    <a class="card-artist__link" href="/templatechronixx.html">
-                        <img class="card-artist__img" src="/assets/img/chronixx1.webp" alt="Chronixx" loading="lazy" />
-                        <div class="card-artist__body">
-                            <p class="geologica-bold">Chronixx</p>
-                            <p class="geomanist-regular">28 octobre 2026 – 17h30</p>
-                        </div>
-                    </a>
+                <li class="artists-tabs__item">
+                    <a href="artistes29.html" class="artists-tabs__btn">29 oct.</a>
                 </li>
-
-
-                <li class="card-artist">
-                    <img class="card-artist__img" src="/assets/img/ziggymarley.webp" alt="Ziggy Marley"
-                        loading="lazy" />
-                    <div class="card-artist__body">
-                        <p class="geologica-bold">Ziggy Marley</p>
-                        <p class="geomanist-regular">28 octobre 2026 – 20h</p>
-                    </div>
+                <li class="artists-tabs__item">
+                    <a href="artistes30.html" class="artists-tabs__btn">30 oct.</a>
                 </li>
-
-                <li class="card-artist">
-                    <img class="card-artist__img" src="/assets/img/beenieman.webp" alt="Beenie Man" loading="lazy" />
-                    <div class="card-artist__body">
-                        <p class="geologica-bold">Beenie Man</p>
-                        <p class="geomanist-regular">28 octobre 2026 – 21h30</p>
-                    </div>
-                </li>
-
-                <li class="card-artist">
-                    <img class="card-artist__img" src="/assets/img/alborosie.webp" alt="Alborosie" loading="lazy" />
-                    <div class="card-artist__body">
-                        <p class="geologica-bold">Alborosie</p>
-                        <p class="geomanist-regular">28 octobre 2026 – 23h</p>
-                    </div>
+                <li class="artists-tabs__item">
+                    <a href="artistes31.html" class="artists-tabs__btn">31 oct.</a>
                 </li>
             </ul>
-        </section>
-    </main>
 
-    <footer class="footer">
-        <div class="footer__top">
-            <img class="footer__logo" src="assets/icons/logo-echos-sonores.svg" alt="Echos Sonores">
-    
-            <div class="footer__newsletter">
-                <p class="footer__newsletter-text">Inscrivez-vous à <br>notre newsletter&nbsp;!</p>
-                <a href="#newsletter" class="footer__btn">Je m’inscris !</a>
+
+            <p class="section__header">28 octobre</p>
+        </header>
+
+        <form class="searchbar" role="search" aria-label="Recherche d'artistes">
+            <label class="searchbar__label" for="artistSearch">Rechercher un artiste</label>
+            <div class="searchbar__field">
+                <input class="searchbar__input js-artist-search" type="search" id="artistSearch" name="artist-search"
+                    placeholder="Nom de l'artiste ou de la scène" autocomplete="off" />
+                <button class="searchbar__clear js-artist-search-clear" type="button">X</button>
             </div>
+        </form>
+
+        <ul class="artists-list u-list-unstyled">
+            <li class="card-artist">
+                <img class="card-artist__img" src="/assets/img/broussai.webp" alt="Broussaï" loading="lazy" />
+                <div class="card-artist__body">
+                    <p class="geologica-bold">Broussaï</p>
+                    <p class="geomanist-regular">28 octobre 2026 – 16h</p>
+                </div>
+            </li>
+
+            <li class="card-artist">
+                <a class="card-artist__link" href="/templatechronixx.html">
+                    <img class="card-artist__img" src="/assets/img/chronixx1.webp" alt="Chronixx" loading="lazy" />
+                    <div class="card-artist__body">
+                        <p class="geologica-bold">Chronixx</p>
+                        <p class="geomanist-regular">28 octobre 2026 – 17h30</p>
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="card-artist">
+                <img class="card-artist__img" src="/assets/img/ziggymarley.webp" alt="Ziggy Marley" loading="lazy" />
+                <div class="card-artist__body">
+                    <p class="geologica-bold">Ziggy Marley</p>
+                    <p class="geomanist-regular">28 octobre 2026 – 20h</p>
+                </div>
+            </li>
+
+            <li class="card-artist">
+                <img class="card-artist__img" src="/assets/img/beenieman.webp" alt="Beenie Man" loading="lazy" />
+                <div class="card-artist__body">
+                    <p class="geologica-bold">Beenie Man</p>
+                    <p class="geomanist-regular">28 octobre 2026 – 21h30</p>
+                </div>
+            </li>
+
+            <li class="card-artist">
+                <img class="card-artist__img" src="/assets/img/alborosie.webp" alt="Alborosie" loading="lazy" />
+                <div class="card-artist__body">
+                    <p class="geologica-bold">Alborosie</p>
+                    <p class="geomanist-regular">28 octobre 2026 – 23h</p>
+                </div>
+            </li>
+        </ul>
+
+        <p class="searchbar__empty js-artist-search-empty" hidden>Aucun artiste ne correspond à votre recherche.</p>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__top">
+        <img class="footer__logo" src="assets/icons/logo-echos-sonores.svg" alt="Echos Sonores">
+
+        <div class="footer__newsletter">
+            <p class="footer__newsletter-text">Inscrivez-vous à <br>notre newsletter&nbsp;!</p>
+            <a href="#newsletter" class="footer__btn">Je m’inscris !</a>
         </div>
-    
-        <div class="footer__middle">
-            <nav class="footer__nav">
-                <ul class="footer__list">
-                    <li><a href="/">Accueil</a></li>
-                    <li><a href="/festival.html">Le festival</a></li>
-                    <li><a href="/programme.html">Programme</a></li>
-                    <li><a href="/artistes28.html">Artistes</a></li>
-                    <li><a href="/infos.html">Infos pratiques</a></li>
-                    <li><a href="/scenes.html">Scènes</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-    
-            <div class="footer__partners">
-                <img src="assets/img/l'est republicain.avif" alt="L'Est Républicain" class="footer__partner-logo">
-                <img src="assets/img/logo-ici.svg" alt="Ici" class="footer__partner-logo">
-            </div>
-    
-            <div class="footer__contact">
-                <p class="footer__title">COORDONÉES</p>
-                <span class="infos__coordonees">
-                    <p>Rue de Dasle, Audincourt</p>
-                    <p><a href="mailto:info@echossonores.fr">info@echossonores.fr</a></p>
-                    <p><a href="/contact.html">Page contact</a></p>
-                </span>
-            </div>
+    </div>
+
+    <div class="footer__middle">
+        <nav class="footer__nav">
+            <ul class="footer__list">
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/festival.html">Le festival</a></li>
+                <li><a href="/programme.html">Programme</a></li>
+                <li><a href="/artistes28.html">Artistes</a></li>
+                <li><a href="/infos.html">Infos pratiques</a></li>
+                <li><a href="/scenes.html">Scènes</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer__partners">
+            <img src="assets/img/l'est republicain.avif" alt="L'Est Républicain" class="footer__partner-logo">
+            <img src="assets/img/logo-ici.svg" alt="Ici" class="footer__partner-logo">
         </div>
-    
-        <div class="footer__legal">
-            <p>
-                <a href="#">Mentions légales</a> ·
-                <a href="#">Politique de confidentialité (RGPD)</a> ·
-                <a href="#">Conditions générales de vente (CGV)</a> ·
-                <a href="#">Gestion des cookies</a>
-            </p>
-            <p class="footer__copyright">Copyright © 2026 Echos Sonores</p>
+
+        <div class="footer__contact">
+            <p class="footer__title">COORDONÉES</p>
+            <span class="infos__coordonees">
+                <p>Rue de Dasle, Audincourt</p>
+                <p><a href="mailto:info@echossonores.fr">info@echossonores.fr</a></p>
+                <p><a href="/contact.html">Page contact</a></p>
+            </span>
         </div>
-    </footer>
+    </div>
+
+    <div class="footer__legal">
+        <p>
+            <a href="#">Mentions légales</a> ·
+            <a href="#">Politique de confidentialité (RGPD)</a> ·
+            <a href="#">Conditions générales de vente (CGV)</a> ·
+            <a href="#">Gestion des cookies</a>
+        </p>
+        <p class="footer__copyright">Copyright © 2026 Echos Sonores</p>
+    </div>
+</footer>
 </body>
 
 </html>

@@ -17,14 +17,12 @@
     border-radius: 999px;
 }
 
-/* Menu plein écran */
-/* Forcer l'affichage du menu plein écran */
-/* état de base : nav caché (hidden=true) => plus affiché */
+
 #mainNav[hidden] {
     display: none;
 }
 
-/* nav visible : display flex, mais animée via .menu--open */
+
 #mainNav {
     position: fixed;
     inset: 0;
@@ -46,7 +44,6 @@
     transform: translateY(0);
 }
 
-/* animation des items */
 #mainNav .menu__item {
     opacity: 0;
     transform: translateY(-10px);

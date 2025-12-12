@@ -11,6 +11,7 @@
 @import "../components/cardsscenes.css";
 @import "../src/components/formulairecontact.css";
 @import "../components/menu.css";
+@import "../components/searchbar.css";
 
 html,
 body {

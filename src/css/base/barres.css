@@ -72,7 +72,6 @@
     content: "";
     display: block;
     width: 92%;
-    /* barre quasi pleine largeur */
     height: 2px;
     margin: 0 auto;
     background-color: var(--blanc);
@@ -80,7 +79,6 @@
 }
 .program-table-wrapper {
     padding: 0 1.5rem;
-    /* espace à gauche/droite de tout le tableau */
 }
 
 .program-table th,
@@ -89,7 +87,6 @@
     text-align: left;
 }
 
-/* en-têtes un peu plus bas */
 .program-table th {
     padding-bottom: 0.5rem;
 }
@@ -97,7 +94,5 @@
 .program-table {
     width: 100%;
     max-width: 520px;
-    /* ou 540px selon ton design */
     margin: 0 auto;
-    /* centre le tableau dans la page */
 }

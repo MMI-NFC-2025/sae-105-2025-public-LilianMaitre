@@ -76,6 +76,15 @@
                 <p class="section__header">30 octobre</p>
             </header>
 
+            <form class="searchbar" role="search" aria-label="Recherche d'artistes">
+                <label class="searchbar__label" for="artistSearch">Rechercher un artiste</label>
+                <div class="searchbar__field">
+                    <input class="searchbar__input js-artist-search" type="search" id="artistSearch"
+                        name="artist-search" placeholder="Nom de l'artiste ou de la scène" autocomplete="off" />
+                    <button class="searchbar__clear js-artist-search-clear" type="button">X</button>
+                </div>
+            </form>
+
             <ul class="artists-list u-list-unstyled">
                 <li class="card-artist">
                     <img class="card-artist__img" src="/assets/img/vanupié.webp" alt="Vanupié" loading="lazy" />
@@ -119,6 +128,8 @@
                     </div>
                 </li>
             </ul>
+
+            <p class="searchbar__empty js-artist-search-empty" hidden>Aucun artiste ne correspond à votre recherche.</p>
         </section>
     </main>
 

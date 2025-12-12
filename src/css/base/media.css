@@ -18,11 +18,8 @@
 
 .infos__map {
     width: 80%;
-    /* ajuste le pourcentage selon tes besoins */
     max-width: 600px;
-    /* largeur maximale */
     margin: 2 auto;
-    /* centre la map */
     display: block;
 }
 
@@ -57,21 +54,18 @@
     object-fit: contain;
 }
 
-/* Fond général */
 .page-scene {
     background-color: #0ba138;
     color: #ffffff;
     font-family: "Montserrat", system-ui, sans-serif;
 }
 
-/* Bloc central */
 .section--scene-detail {
     max-width: 480px;
     margin: 0 auto 3rem;
     padding: 0;
 }
 
-/* Bande verte + titre SCENES */
 .section__header {
     background-color: #0ba138;
     text-align: center;
@@ -85,7 +79,6 @@
     font-weight: 700;
 }
 
-/* Image de scène */
 .scene-hero {
     position: relative;
     margin: 0;
@@ -98,7 +91,6 @@
     object-fit: cover;
 }
 
-/* Texte Echo Roots en bas de l’image */
 .scene-hero::after {
     content: "Echo Roots";
     position: absolute;
@@ -111,7 +103,6 @@
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-/* Bande verte + titre Artistes */
 .scene-detail__subtitle {
     margin: 0;
     padding: 0.8rem 0;

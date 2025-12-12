@@ -138,9 +138,7 @@
     justify-content: center;
 
     min-width: 60px;
-    /* avant : 80 ou 90px, diminue cette valeur */
     padding: 0.7rem 0.9rem;
-    /* moins de padding = bouton plus court */
     border-radius: 999px;
     background-color: var(--gris);
     color: var(--blanc);

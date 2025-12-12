@@ -5,7 +5,6 @@
     font-size: 0.9rem;
 }
 
-/* top : logo + newsletter */
 .footer__top {
     display: flex;
     justify-content: space-between;
@@ -33,7 +32,6 @@
     font-weight: 600;
 }
 
-/* middle : 3 colonnes */
 .footer__middle {
     display: grid;
     grid-template-columns: 1.2fr 1fr 1.1fr;
@@ -74,7 +72,6 @@
     color: #ffffff;
 }
 
-/* bas du footer */
 .footer__legal {
     border-top: 1px solid rgba(255, 255, 255, 0.25);
     padding-top: 0.8rem;
@@ -96,7 +93,6 @@
     opacity: 0.9;
 }
 
-/* responsive mobile */
 @media (max-width: 768px) {
     .footer__top {
         flex-direction: column;

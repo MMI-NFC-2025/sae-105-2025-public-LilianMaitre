@@ -1,0 +1,104 @@
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0 1rem;
+    margin: 0 auto 1.2rem;
+    max-width: 520px;
+}
+
+.searchbar__label {
+    margin: 0;
+    font-family: "Montserrat", system-ui, -apple-system, sans-serif;
+    font-size: var(--text-sm);
+    color: var(--blanc);
+}
+
+.searchbar__field {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.55rem 0.75rem;
+    border-radius: 999px;
+    background-color: var(--blanc);
+    border: 2px solid var(--blanc);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.searchbar__input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: var(--sombre);
+    font-family: "Montserrat", system-ui, -apple-system, sans-serif;
+    font-size: var(--text-base);
+    outline: none;
+}
+
+.searchbar__input::placeholder {
+    color: var(--gris-clair);
+}
+
+.searchbar__clear {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    background-color: var(--fond);
+    color: var(--blanc);
+    font-family: "Montserrat", system-ui, -apple-system, sans-serif;
+    font-size: 0;
+    font-weight: 700;
+    padding: 0;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.searchbar__clear:hover {
+    background-color: var(--vert-foncé);
+}
+
+.searchbar__clear:active {
+    transform: scale(0.97);
+}
+
+.searchbar__clear::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-color: var(--blanc);
+    mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3C/svg%3E") no-repeat center;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3C/svg%3E") no-repeat center;
+    mask-size: 18px 18px;
+    -webkit-mask-size: 18px 18px;
+}
+
+.searchbar__hint {
+    margin: 0;
+    padding: 0 0.2rem;
+    font-family: "Montserrat", system-ui, -apple-system, sans-serif;
+    font-size: var(--text-xs);
+    color: var(--gris-clair);
+}
+
+.searchbar__empty {
+    margin: 1rem auto 0;
+    padding: 1rem 1.2rem;
+    max-width: 520px;
+    text-align: center;
+    font-family: "Montserrat", system-ui, -apple-system, sans-serif;
+    font-size: var(--text-base);
+    color: var(--blanc);
+    background: rgba(38, 38, 38, 0.8);
+    border: 1px dashed rgba(255, 255, 255, 0.35);
+    border-radius: 18px;
+}
+
+@media (min-width: 768px) {
+    .searchbar {
+        margin-bottom: 1.6rem;
+    }
+}

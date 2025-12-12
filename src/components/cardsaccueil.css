@@ -63,17 +63,14 @@
     padding: 1rem 0.9rem;
     border-radius: 999px;
     background-color: #7f7f7f;
-    /* gris clair */
     color: #ffffff;
     font-size: 0.7rem;
     font-family: "Montserrat", system-ui, sans-serif;
     text-transform: lowercase;
     cursor: pointer;
 }
-/* bouton actif, plus foncé */
 .artists-tabs__btn--active {
     background-color: #333333;
-    /* gris foncé quasi noir */
 }
 
 .artists-tabs {

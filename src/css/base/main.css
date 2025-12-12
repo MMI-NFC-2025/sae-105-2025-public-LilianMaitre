@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--fond);
-    /* mets ici la couleur que tu veux */
 }
 
 .geomanist-regular {
@@ -30,10 +29,8 @@ body {
     font-family: "Metropolis", system-ui, -apple-system, sans-serif;
     font-weight: 400;
     color: var(--blanc);
-    /* blanc visible */
     font-size: var(--text-lg);
     opacity: 1 !important;
-    /* force la visibilité */
     margin: 0;
 }
 
@@ -48,10 +45,8 @@ body {
     font-family: "Metropolis", system-ui, -apple-system, sans-serif;
     font-weight: 400;
     color: var(--blanc);
-    /* blanc visible */
     font-size: var(--text-lg);
     opacity: 1 !important;
-    /* force la visibilité */
     margin: 0.25rem;
 }
 
@@ -137,12 +132,12 @@ body {
     font-family: "Geologica", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-weight: 700;
     font-size: 1.55rem;
-    /* augmente la taille */
     color: var(--blanc);
 }
 
 .section__header {
     font-family: "Reggae One", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--blanc);
     background-color: none;
     text-align: center;
     padding: 0.5rem 0;
@@ -164,10 +159,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    /* espace vertical entre les questions */
 }
 
-/* chaque ligne de question */
 .faq__item {
     width: 100%;
     padding: 0;
@@ -182,7 +175,6 @@ body {
     cursor: pointer;
 }
 
-/* texte de la question */
 .faq__question {
     flex: 1;
     text-align: left;
@@ -250,7 +242,6 @@ body {
 
 .contact-form textarea {
     border-radius: 14px;
-    /* comme sur la maquette */
     min-height: 140px;
     resize: vertical;
 }
@@ -260,32 +251,26 @@ body {
     color: var(--gris-clair);
 }
 
-/* bouton supprimé ou déplacé si tu n’en veux plus ici */
 .contact-form button {
     margin-top: 1.2rem;
     align-self: center;
 }
 
-/* liste de réseaux */
 .social-list {
     list-style: none;
-    /* enlève les points */
     margin: 0;
     padding: 0;
 
     display: flex;
-    /* aligne horizontalement */
     gap: 1rem;
-    /* espace entre les icônes */
     align-items: center;
 }
 
-/* items */
+
 .social-list__item {
     margin: 0;
 }
 
-/* liens + icônes */
 .social-list__link {
     display: inline-flex;
     align-items: center;
@@ -295,20 +280,17 @@ body {
 .social-list__link img {
     display: block;
     width: 40px;
-    /* ajuste la taille des icônes */
     height: 40px;
 }
 
 .contact-list {
     list-style: none;
-    /* enlève les points */
     margin: 0;
     padding: 0;
 }
 
 .contact-list__item {
     display: flex;
-    /* aligne icône + texte sur la même ligne */
     align-items: center;
     gap: 0.6rem;
     margin-bottom: 0.4rem;
@@ -323,7 +305,6 @@ body {
     text-decoration: underline;
 }
 
-/* Page artistes : bande verte + titre */
 .page-artists {
     background-color: var(--fond);
     color: var(--blanc);
@@ -336,14 +317,12 @@ body {
     padding: 0;
 }
 
-/* Zone titre + onglets */
 .section--artists .section__header {
     text-align: center;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
 }
 
-/* Titre "Artistes" */
 .section--artists .section__title {
     margin: 0 0 0.8rem;
     font-family: "Fredoka", system-ui, sans-serif;
@@ -397,14 +376,12 @@ body {
     font-family: "Montserrat", system-ui, sans-serif;
 }
 
-/* Conteneur principal */
 .section--artist {
     max-width: 480px;
     margin: 0 auto 3rem;
     padding: 0;
 }
 
-/* Titre ARTISTES en haut */
 .section--artist .section__header {
     text-align: center;
     padding: 1rem 0 0.3rem;
@@ -417,12 +394,10 @@ body {
     font-weight: 700;
 }
 
-/* Bloc artiste */
 .artist {
     margin-top: 0.3rem;
 }
 
-/* Image + nom sur l’image */
 .artist__hero {
     position: relative;
     margin: 0;
@@ -446,7 +421,6 @@ body {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-/* Métadonnées (Passage / Scène) */
 .artist__meta {
     padding: 1.1rem 1rem 0.4rem;
     font-size: 0.95rem;
@@ -460,7 +434,6 @@ body {
     font-weight: 700;
 }
 
-/* Bloc description */
 .artist__bio {
     padding: 0.4rem 1rem 1.6rem;
     font-size: 0.95rem;
@@ -476,13 +449,11 @@ body {
     padding-bottom: 2rem;
 }
 
-/* conteneur flèches + slider */
 .artist-gallery__wrapper {
     display: flex;
     align-items: center;
 }
 
-/* le rail qui doit prendre tout l'écran */
 .artist-gallery__slider {
     display: flex;
     overflow-x: auto;
@@ -494,7 +465,6 @@ body {
     margin-right: calc(-50vw + 50%);
 }
 
-/* chaque slide = 100% largeur écran */
 .artist-gallery__slide {
     width: 100vw !important;
     height: 320px !important;
@@ -503,7 +473,6 @@ body {
     scroll-snap-align: center;
 }
 
-/* flèches */
 .artist-gallery__arrow {
     background: rgba(0, 0, 0, 0.5);
     color: var(--blanc);
@@ -532,7 +501,6 @@ body {
     text-decoration: none;
 }
 
-/* Bouton retour en haut */
 .back-to-top {
     position: fixed;
     right: 1rem;

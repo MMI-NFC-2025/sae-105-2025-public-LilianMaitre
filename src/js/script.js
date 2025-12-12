@@ -104,5 +104,51 @@ if ('loading' in HTMLImageElement.prototype) {
 }
 
 
+// Seaerchbar des artistes dans les pages artistesXX.html
+const artistSearchInput = document.querySelector('.js-artist-search');
+const artistCards = Array.from(document.querySelectorAll('.artists-list .card-artist'));
+
+if (artistSearchInput && artistCards.length) {
+    const emptyState = document.querySelector('.js-artist-search-empty');
+    const clearBtn = document.querySelector('.js-artist-search-clear');
+
+    const normalizeText = (value) =>
+        value
+            .normalize('NFD')
+            .replace(/\p{Diacritic}/gu, '')
+            .toLowerCase();
+
+    const filterArtists = () => {
+        const query = normalizeText(artistSearchInput.value.trim());
+        let visibleCount = 0;
+
+        artistCards.forEach((card) => {
+            const text = normalizeText(card.textContent || '');
+            const match = text.includes(query);
+            card.style.display = match ? '' : 'none';
+            if (match) {
+                visibleCount += 1;
+            }
+        });
+
+        if (emptyState) {
+            emptyState.hidden = visibleCount > 0;
+        }
+    };
+
+    artistSearchInput.addEventListener('input', filterArtists);
+
+    if (clearBtn) {
+        clearBtn.addEventListener('click', () => {
+            artistSearchInput.value = '';
+            filterArtists();
+            artistSearchInput.focus();
+        });
+    }
+
+    filterArtists();
+}
+
+
 
 
