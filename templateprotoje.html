@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Artistes – 30 octobre | Echos Sonores</title>
+    <title>Protoje – Artistes | Echos Sonores</title>
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -16,15 +16,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
-
-    <!-- CSS global -->
     <link rel="stylesheet" href="/src/css/style.css" />
-
-    <!-- JS global -->
     <script type="module" src="/src/js/script.js"></script>
 </head>
 
-<body class="page-artists">
+<body class="page-artist">
     <header class="header">
         <a class="header__link" href="#">
             <img class="header__logo" src="assets/icons/logo-echos-sonores.svg" alt="Echos Sonores">
@@ -54,71 +50,53 @@
     </header>
 
     <main>
-        <section class="section section--wrapper section--artists">
+        <section class="section section--wrapper section--artist">
             <header class="section__header">
                 <h1 class="section__title">Artistes</h1>
-
-                <ul class="artists-tabs">
-                    <li class="artists-tabs__item">
-                        <a href="artistes28.html" class="artists-tabs__btn">28 oct.</a>
-                    </li>
-                    <li class="artists-tabs__item">
-                        <a href="artistes29.html" class="artists-tabs__btn">29 oct.</a>
-                    </li>
-                    <li class="artists-tabs__item">
-                        <a href="artistes30.html" class="artists-tabs__btn artists-tabs__btn--active">30 oct.</a>
-                    </li>
-                    <li class="artists-tabs__item">
-                        <a href="artistes31.html" class="artists-tabs__btn">31 oct.</a>
-                    </li>
-                </ul>
-
-                <p class="section__header">30 octobre</p>
             </header>
 
-            <ul class="artists-list u-list-unstyled">
-                <li class="card-artist">
-                    <img class="card-artist__img" src="/assets/img/vanupié.webp" alt="Vanupié" loading="lazy" />
-                    <div class="card-artist__body">
-                        <p class="geologica-bold">Vanupié</p>
-                        <p class="card-artist__date">30 octobre 2026 – 16h</p>
-                    </div>
-                </li>
+            <article class="artist">
+                <figure class="artist__hero">
+                    <img class="artist__img" src="/assets/img/protoje.webp" alt="Protoje en concert" />
+                    <figcaption class="artist__name">Protoje</figcaption>
+                </figure>
 
-                <li class="card-artist">
-                    <img class="card-artist__img" src="/assets/img/naaman.webp" alt="Naâman" loading="lazy" />
-                    <div class="card-artist__body">
-                        <p class="geologica-bold">Naâman</p>
-                        <p class="card-artist__date">30 octobre 2026 – 19h</p>
-                    </div>
-                </li>
+                <div class="artist__meta">
+                    <p><strong>Passage :</strong> 29 octobre 2026 – 20h15</p>
+                    <p><strong>Scène :</strong> Echo Roots</p>
+                </div>
 
-                <li class="card-artist">
-                    <a href="/templateprotoje.html" class="card-artist__link" aria-label="Voir la fiche de Protoje">
-                        <img class="card-artist__img" src="/assets/img/protoje.webp" alt="Protoje" loading="lazy" />
-                        <div class="card-artist__body">
-                            <p class="geologica-bold">Protoje</p>
-                            <p class="card-artist__date">30 octobre 2026 – 21h</p>
+                <section class="artist__bio">
+                    <h2 class="artist__subtitle">Description</h2>
+                    <p>
+                        Protoje (Oje Ken Ollivierre) est un chanteur et compositeur jamaïcain, figure clé de la
+                        nouvelle vague reggae roots. Sa musique mêle textes conscients, groove moderne et héritage
+                        classique du reggae.
+                    </p>
+                    <p>
+                        Révélé avec l'album « Ancient Future », il collabore avec Chronixx, Koffee ou encore Lila Ike,
+                        enchaîne tournées internationales et performances scéniques à haute énergie.
+                    </p>
+                </section>
+
+                <section class="artist-gallery">
+                    <h2 class="artist__subtitle">Galerie</h2>
+
+                    <div class="artist-gallery__wrapper">
+                        <button class="artist-gallery__arrow artist-gallery__arrow--prev" type="button"
+                            aria-label="Image précédente">‹</button>
+
+                        <div class="artist-gallery__slider">
+                            <img class="artist-gallery__slide" src="/assets/img/protoje1.webp" alt="Protoje 1">
+                            <img class="artist-gallery__slide" src="/assets/img/protoje2.webp" alt="Protoje 2">
+                            <img class="artist-gallery__slide" src="/assets/img/protoje3.webp" alt="Protoje 3">
                         </div>
-                    </a>
-                </li>
 
-                <li class="card-artist">
-                    <img class="card-artist__img" src="/assets/img/danakil.webp" alt="Danakil" loading="lazy" />
-                    <div class="card-artist__body">
-                        <p class="geologica-bold">Danakil</p>
-                        <p class="card-artist__date">30 octobre 2026 – 21h30</p>
+                        <button class="artist-gallery__arrow artist-gallery__arrow--next" type="button"
+                            aria-label="Image suivante">›</button>
                     </div>
-                </li>
-
-                <li class="card-artist">
-                    <img class="card-artist__img" src="/assets/img/ryon.webp" alt="Ryon" loading="lazy" />
-                    <div class="card-artist__body">
-                        <p class="geologica-bold">Ryon</p>
-                        <p class="card-artist__date">30 octobre 2026 – 23h</p>
-                    </div>
-                </li>
-            </ul>
+                </section>
+            </article>
         </section>
     </main>
 
