@@ -8,6 +8,11 @@ if (menuBtn && siteMenu) {
     const ANIM_DURATION = 250;
 
     const openMenu = () => {
+        // Force le logo du header à pointer vers l'accueil
+        document.querySelectorAll('.header__link').forEach((link) => {
+            link.setAttribute('href', '/');
+        });
+
         siteMenu.hidden = false;
         siteMenu.classList.add(OPEN_CLASS);
         menuBtn.classList.add('menu-btn--open');
